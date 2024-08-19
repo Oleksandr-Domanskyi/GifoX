@@ -1,0 +1,17 @@
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\bin\Debug\net8.0\Coupons.Service.Infrastructure.deps.json
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\bin\Debug\net8.0\Coupons.Service.Infrastructure.runtimeconfig.json
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\bin\Debug\net8.0\Coupons.Service.Infrastructure.dll
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\bin\Debug\net8.0\Coupons.Service.Infrastructure.pdb
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\bin\Debug\net8.0\Coupons.Service.Core.dll
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\bin\Debug\net8.0\Coupons.Service.Core.pdb
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.csproj.AssemblyReference.cache
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.AssemblyInfoInputs.cache
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.AssemblyInfo.cs
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons..20956ED6.Up2Date
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.dll
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\refint\Coupons.Service.Infrastructure.dll
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.pdb
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\Coupons.Service.Infrastructure.genruntimeconfig.cache
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Infrastructure\obj\Debug\net8.0\ref\Coupons.Service.Infrastructure.dll
