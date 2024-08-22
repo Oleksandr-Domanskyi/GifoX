@@ -1,0 +1,120 @@
+@using GifoX.web.Models.Coupon
+@model IEnumerable<CouponDto>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            border-radius: 4px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Coupons</h1>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Create new Coupone</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Coupon Code</th>
+                <th>Discount Amount</th>
+                <th>Discount Type</th>
+                <th>Minimum Amount</th>
+                <th>Usable Amount</th>
+                <th>Can Be Used</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var coupon in Model)
+            {
+                <tr>
+                    <td>@coupon.CouponCode</td>
+                    <td>@coupon.DiscountAmount</td>
+                    <td>@coupon.DiscountType</td>
+                    <td>@coupon.MinAmount</td>
+                    <td>@coupon.UsableAmount</td>
+                    <td>@coupon.CanBeUsed</td>
+                    <td class="actions">
+                        <!-- Update Button -->
+                        <a href="@Url.Action("Edit", new { id = coupon.CouponId })" class="btn btn-primary">Update</a>
+
+                        <!-- Delete Button -->
+                        <form asp-action="DeleteCoupone" asp-route-id="@coupon.CouponId" method="post"
+                            style="display:inline;">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>

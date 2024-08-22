@@ -15,3 +15,4 @@ d:\GifoX\Services\CouponOpenAPI\Coupon.Service.Application\bin\Debug\net8.0\Coup
 d:\GifoX\Services\CouponOpenAPI\Coupon.Service.Application\bin\Debug\net8.0\Coupons.Service.Infrastructure.pdb
 d:\GifoX\Services\CouponOpenAPI\Coupon.Service.Application\obj\Debug\net8.0\Coupons.Service.Application.csproj.AssemblyReference.cache
 d:\GifoX\Services\CouponOpenAPI\Coupon.Service.Application\obj\Debug\net8.0\Coupons..75D10221.Up2Date
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.Application\obj\Debug\net8.0\Coupons.Service.Application.sourcelink.json

@@ -18,13 +18,13 @@ namespace GifoX.web.Service
             _baseService = baseService;
 
         }
-        public async Task<ResponseDto?> CreateCouponAsync(CouponDto couponDto)
+        public async Task<ResponseDto?> CreateCouponAsync(CouponeRequest CouponeRequest)
         {
             return await _baseService.SendAsync(new RequestDto()
             {
                 ApiType = ApiType.POST,
-                Data = couponDto,
-                Url = $"/{CouponAPIBase}/{Services.Coupone}"
+                Data = CouponeRequest,
+                Url = $"{CouponAPIBase}/{Services.Coupone}"
             });
         }
 
@@ -33,7 +33,7 @@ namespace GifoX.web.Service
             return await _baseService.SendAsync(new RequestDto()
             {
                 ApiType = ApiType.DELETE,
-                Url = $"/{CouponAPIBase}/{Services.Coupone}/{id}"
+                Url = $"{CouponAPIBase}/{Services.Coupone}/{id}"
             });
         }
 
@@ -64,12 +64,12 @@ namespace GifoX.web.Service
             });
         }
 
-        public async Task<ResponseDto?> UpdateCouponAsync(CouponDto couponDto)
+        public async Task<ResponseDto?> UpdateCouponAsync(CouponeRequest CouponRequest)
         {
             return await _baseService.SendAsync(new RequestDto()
             {
                 ApiType = ApiType.PUT,
-                Data = couponDto,
+                Data = CouponRequest,
                 Url = $"{CouponAPIBase}/{Services.Coupone}",
             });
         }

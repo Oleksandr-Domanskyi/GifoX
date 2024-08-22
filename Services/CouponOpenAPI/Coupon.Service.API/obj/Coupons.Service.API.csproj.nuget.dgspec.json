@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj": {
-                "projectPath": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj"
+              "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj": {
+                "projectPath": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj"
               },
               "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\Coupons.Service.Infrastructure.csproj": {
                 "projectPath": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\Coupons.Service.Infrastructure.csproj"
@@ -88,14 +88,14 @@
         }
       }
     },
-    "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj": {
+    "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj",
+        "projectUniqueName": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj",
         "projectName": "Coupons.Service.Application",
-        "projectPath": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj",
+        "projectPath": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\Coupons.Service.Application.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\obj\\",
+        "outputPath": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -266,19 +266,19 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.4, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

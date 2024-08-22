@@ -20,12 +20,11 @@ namespace Coupons.Service.Application.CQRS.Query.CouponeGetAll
         public async Task<IEnumerable<CouponDto>> Handle(CouponeGetAllQuery request, CancellationToken cancellationToken)
         {
             var result = await _couponeRepositoryService.GetAll();
-            if (result.IsSuccess)
+            if (!result.IsSuccess)
             {
-                return result.Value.ToList();
+                throw new Exception($"Failed to retrieve coupons: {string.Join(", ", result.Errors.Select(e => e.Message))}");
             }
-            var errorMessage = string.Join(", ", result.Errors.Select(e => e.Message));
-            throw new Exception($"Failed to retrieve coupons: {errorMessage}");
+            return result.Value.ToList();
         }
     }
 }

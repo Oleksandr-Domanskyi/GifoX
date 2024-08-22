@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PPfOIFwIXdk=",
+  "dgSpecHash": "nDnbdwWVTDo=",
   "success": true,
-  "projectFilePath": "D:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj",
+  "projectFilePath": "d:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

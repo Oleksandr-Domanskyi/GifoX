@@ -13,7 +13,7 @@ namespace Coupons.Service.Infrastructure.Migrations
 {
     [DbContext(typeof(CouponeDbContext))]
     [Migration("20240819080658_init")]
-    partial class init
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

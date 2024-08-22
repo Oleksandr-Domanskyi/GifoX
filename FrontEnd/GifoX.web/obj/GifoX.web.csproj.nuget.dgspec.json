@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj": {}
+    "d:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj": {}
   },
   "projects": {
-    "D:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj": {
+    "d:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj",
+        "projectUniqueName": "d:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj",
         "projectName": "GifoX.web",
-        "projectPath": "D:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj",
+        "projectPath": "d:\\GifoX\\FrontEnd\\GifoX.web\\GifoX.web.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\FrontEnd\\GifoX.web\\obj\\",
+        "outputPath": "d:\\GifoX\\FrontEnd\\GifoX.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -21,8 +21,8 @@ namespace Coupons.Service.Infrastructure.Repositories
         public async Task<CouponModel> GetByIdAsync(Guid Id) => await _dbContext.Coupon.FirstAsync(x => x.Id == Id);
         public async Task<CouponModel> GetByCodeAsync(string code)
         {
-            var entity = await _dbContext.Coupon.FindAsync(code);
-            return entity == null || entity.CanBeUsed == true
+            var entity = await _dbContext.Coupon.Where(x => x.CouponCode == code).FirstOrDefaultAsync();
+            return entity == null || entity.CanBeUsed != true
                 ? throw new Exception
                 ($"Coupone with code: {code} not found or Coupon has exhausted all its usage opportunities!!!")
                 : entity;

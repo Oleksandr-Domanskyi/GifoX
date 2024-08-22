@@ -31,3 +31,4 @@ D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\ref\GifoX.web.dll
 d:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\Newtonsoft.Json.dll
 d:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.AssemblyReference.cache
 d:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.Up2Date
+D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.sourcelink.json

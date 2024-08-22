@@ -20,9 +20,6 @@ namespace GifoX.web.Controllers
         {
             _couponService = couponService;
         }
-
-
-
         public async Task<IActionResult> CouponeIndex()
         {
             var response = await _couponService.GetAllCouponsAsync();
@@ -33,6 +30,35 @@ namespace GifoX.web.Controllers
             }
 
             return View();
+        }
+        [HttpPost]
+        [Route("Delete/{id}")]
+        public async Task<IActionResult> DeleteCoupone(Guid id)
+        {
+            var response = await _couponService.DeleteCouponAsync(id);
+            if (response != null && response.IsSuccess)
+            {
+                return RedirectToAction("CouponeIndex");
+            }
+
+            return RedirectToAction("CouponeIndex");
+        }
+        [HttpGet("Create")]
+        public IActionResult CouponeCreate()
+        {
+            return View();
+        }
+
+        [HttpPost("Create")]
+        public async Task<IActionResult> CreateCoupon(CouponeRequest couponeRequest)
+        {
+            var response = await _couponService.CreateCouponAsync(couponeRequest);
+            if (response != null && response.IsSuccess)
+            {
+                return RedirectToAction("CouponeIndex");
+            }
+
+            return RedirectToAction("CouponeIndex");
         }
 
 

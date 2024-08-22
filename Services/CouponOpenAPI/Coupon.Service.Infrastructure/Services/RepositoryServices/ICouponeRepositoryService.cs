@@ -16,6 +16,7 @@ namespace Coupons.Service.Infrastructure.Services.RepositoryServices
         Task<Result<CouponDto>> GetByCode(string code);
         Task<Result> AddCoupone(CouponeRequest model);
         Task<Result<CouponDto>> UpdateCoupone(CouponeRequest model, Guid id);
+        Task<Result<CouponDto>> UseCoupone(string code);
         Task<Result> DeleteCoupone(Guid Id);
     }
 }

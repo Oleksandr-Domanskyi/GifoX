@@ -10,9 +10,9 @@ namespace Coupons.Service.Application.Mappers
 {
     public class CouponeMapper
     {
-        public static CouponModel MapCouponeRequestToCouponModel(CouponeRequest request, Guid? Id = null)
+        public static Core.Domain.CouponModel MapCouponeRequestToCouponModel(CouponeRequest request, Guid? Id = null)
         {
-            return new CouponModel
+            return new Core.Domain.CouponModel
             {
                 Id = Id ?? Guid.Empty,
                 CouponCode = request.CouponCode,
@@ -22,9 +22,9 @@ namespace Coupons.Service.Application.Mappers
                 UsableAmount = request.UsableAmount
             };
         }
-        public static CouponDto MapCouponModelToCouponDto(CouponModel domain)
+        public static Core.Dto.CouponDto MapCouponModelToCouponDto(Core.Domain.CouponModel domain)
         {
-            return new CouponDto
+            return new Core.Dto.CouponDto
             {
                 CouponId = domain.Id,
                 CouponCode = domain.CouponCode,
@@ -35,7 +35,7 @@ namespace Coupons.Service.Application.Mappers
                 CanBeUsed = domain.CanBeUsed,
             };
         }
-        public static List<CouponDto> MapCouponModelToCouponDto(IEnumerable<CouponModel> domains)
+        public static List<Core.Dto.CouponDto> MapCouponModelToCouponDto(IEnumerable<Core.Domain.CouponModel> domains)
         {
             return domains.Select(domain => new CouponDto
             {

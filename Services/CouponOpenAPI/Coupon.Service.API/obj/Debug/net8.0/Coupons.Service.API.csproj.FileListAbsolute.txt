@@ -111,3 +111,4 @@ d:\GifoX\Services\CouponOpenAPI\Coupon.Service.API\bin\Debug\net8.0\MediatR.dll
 d:\GifoX\Services\CouponOpenAPI\Coupon.Service.API\bin\Debug\net8.0\MediatR.Contracts.dll
 d:\GifoX\Services\CouponOpenAPI\Coupon.Service.API\bin\Debug\net8.0\Coupons.Service.Application.dll
 d:\GifoX\Services\CouponOpenAPI\Coupon.Service.API\bin\Debug\net8.0\Coupons.Service.Application.pdb
+D:\GifoX\Services\CouponOpenAPI\Coupon.Service.API\obj\Debug\net8.0\Coupons.Service.API.sourcelink.json

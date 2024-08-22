@@ -22,8 +22,6 @@ namespace GifoX.web.Service
         {
             try
             {
-
-
                 var client = _httpClientFactory.CreateClient("GifoXAPI");
                 HttpRequestMessage message = new();
                 message.Headers.Add("Accept", "application/json");
