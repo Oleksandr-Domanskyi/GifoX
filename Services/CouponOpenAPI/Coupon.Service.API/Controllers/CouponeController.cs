@@ -12,6 +12,7 @@ using Coupons.Service.Application.CQRS.Query.CouponeGetAll;
 using Coupons.Service.Core.Request;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Coupons.Service.API.Controllers
 {
@@ -36,7 +37,7 @@ namespace Coupons.Service.API.Controllers
             {
                 Result = model,
                 IsSuccess = true,
-                Message = ""
+                Message = "Get All success"
             });
         }
 
@@ -45,7 +46,12 @@ namespace Coupons.Service.API.Controllers
         public async Task<IActionResult> GetCoupone(string code)
         {
             var model = await _mediator.Send(new CouponeGetByCodeQuery(code));
-            return Ok(model);
+            return Ok(new
+            {
+                Result = model,
+                IsSuccess = true,
+                Message = "Was Found Successfully!!!"
+            });
         }
 
         [HttpGet]
@@ -53,17 +59,23 @@ namespace Coupons.Service.API.Controllers
         public async Task<IActionResult> GetById(Guid id)
         {
             var model = await _mediator.Send(new CouponeGetByIdQuery(id));
-            return Ok(model);
+            return Ok(new
+            {
+                Result = model,
+                IsSuccess = true,
+                Message = "Was Found Successfully!!!"
+            });
         }
+
         [HttpPost]
-        public async Task<IActionResult> CreateCoupone([FromBody] CouponeRequest couponeRequest)
+        public async Task<IActionResult> CreateCoupone([FromBody] CouponeCreateCommand command)
         {
-            await _mediator.Send(new CouponeCreateCommand(couponeRequest));
+            await _mediator.Send(command);
             return Ok(new
             {
                 Result = "",
                 IsSuccess = true,
-                Message = "Was Created Successfully!!!",
+                Message = "Coupon created successfully!"
             });
         }
 
@@ -83,8 +95,14 @@ namespace Coupons.Service.API.Controllers
         [Route("{id}")]
         public async Task<IActionResult> UpdateCoupone([FromBody] CouponeRequest couponeRequest, Guid id)
         {
-            var model = await _mediator.Send(new CouponeUpdateCommand(couponeRequest, id));
-            return Ok(model);
+            var command = new CouponeUpdateCommand(couponeRequest, id);
+            var model = await _mediator.Send(command);
+            return Ok(new
+            {
+                Result = model,
+                IsSuccess = true,
+                Message = $"Coupon {model.CouponCode} was Updated successfully."
+            });
         }
 
         [HttpDelete]
@@ -99,9 +117,5 @@ namespace Coupons.Service.API.Controllers
                 Message = "Was Deleted Successfully!!!",
             });
         }
-
-
-
-
     }
 }

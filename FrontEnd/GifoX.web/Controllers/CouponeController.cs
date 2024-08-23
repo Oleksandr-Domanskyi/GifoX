@@ -31,6 +31,7 @@ namespace GifoX.web.Controllers
 
             return View();
         }
+
         [HttpPost]
         [Route("Delete/{id}")]
         public async Task<IActionResult> DeleteCoupone(Guid id)
@@ -40,9 +41,9 @@ namespace GifoX.web.Controllers
             {
                 return RedirectToAction("CouponeIndex");
             }
-
-            return RedirectToAction("CouponeIndex");
+            throw new Exception(response!.Message);
         }
+
         [HttpGet("Create")]
         public IActionResult CouponeCreate()
         {
@@ -57,8 +58,7 @@ namespace GifoX.web.Controllers
             {
                 return RedirectToAction("CouponeIndex");
             }
-
-            return RedirectToAction("CouponeIndex");
+            throw new Exception(response!.Message);
         }
 
 

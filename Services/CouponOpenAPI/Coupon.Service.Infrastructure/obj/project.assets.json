@@ -2404,11 +2404,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\Coupons.Service.Infrastructure.csproj",
+      "projectUniqueName": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\Coupons.Service.Infrastructure.csproj",
       "projectName": "Coupons.Service.Infrastructure",
-      "projectPath": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\Coupons.Service.Infrastructure.csproj",
+      "projectPath": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\Coupons.Service.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\obj\\",
+      "outputPath": "d:\\GifoX\\Services\\CouponOpenAPI\\Coupon.Service.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config"
