@@ -103,7 +103,10 @@
                     <td>@coupon.CanBeUsed</td>
                     <td class="actions">
                         <!-- Update Button -->
-                        <a href="@Url.Action("Edit", new { id = coupon.CouponId })" class="btn btn-primary">Update</a>
+                        <form asp-action="CouponeUpdate" asp-route-id="@coupon.CouponId" method="get"
+                            style="display:inline;">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </form>
 
                         <!-- Delete Button -->
                         <form asp-action="DeleteCoupone" asp-route-id="@coupon.CouponId" method="post"

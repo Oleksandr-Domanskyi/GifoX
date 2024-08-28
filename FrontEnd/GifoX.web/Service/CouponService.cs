@@ -64,13 +64,13 @@ namespace GifoX.web.Service
             });
         }
 
-        public async Task<ResponseDto?> UpdateCouponAsync(CouponeRequest CouponRequest)
+        public async Task<ResponseDto?> UpdateCouponAsync(Guid id, CouponeRequest CouponRequest)
         {
             return await _baseService.SendAsync(new RequestDto()
             {
                 ApiType = ApiType.PUT,
                 Data = CouponRequest,
-                Url = $"{CouponAPIBase}/{Services.Coupone}",
+                Url = $"{CouponAPIBase}/{Services.Coupone}/{id}",
             });
         }
     }

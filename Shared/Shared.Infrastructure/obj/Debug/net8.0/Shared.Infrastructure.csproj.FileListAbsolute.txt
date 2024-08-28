@@ -1,0 +1,15 @@
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.deps.json
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.runtimeconfig.json
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.dll
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.pdb
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.csproj.AssemblyReference.cache
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.AssemblyInfoInputs.cache
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.AssemblyInfo.cs
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.sourcelink.json
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.dll
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\refint\Shared.Infrastructure.dll
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.pdb
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.genruntimeconfig.cache
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\ref\Shared.Infrastructure.dll

@@ -23,13 +23,12 @@ namespace GifoX.web.Controllers
         public async Task<IActionResult> CouponeIndex()
         {
             var response = await _couponService.GetAllCouponsAsync();
-            if (response != null && response.IsSuccess)
+            if (response!.IsSuccess)
             {
                 var list = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Result)!);
                 return View(list);
             }
-
-            return View();
+            throw new Exception($"Get All coupone errors: {response.Message}");
         }
 
         [HttpPost]
@@ -37,11 +36,11 @@ namespace GifoX.web.Controllers
         public async Task<IActionResult> DeleteCoupone(Guid id)
         {
             var response = await _couponService.DeleteCouponAsync(id);
-            if (response != null && response.IsSuccess)
+            if (response!.IsSuccess)
             {
                 return RedirectToAction("CouponeIndex");
             }
-            throw new Exception(response!.Message);
+            throw new Exception($"Delete errors: {response.Message}");
         }
 
         [HttpGet("Create")]
@@ -54,11 +53,32 @@ namespace GifoX.web.Controllers
         public async Task<IActionResult> CreateCoupon(CouponeRequest couponeRequest)
         {
             var response = await _couponService.CreateCouponAsync(couponeRequest);
-            if (response != null && response.IsSuccess)
+            if (response!.IsSuccess)
             {
                 return RedirectToAction("CouponeIndex");
             }
-            throw new Exception(response!.Message);
+            throw new Exception(response.Message);
+        }
+        [HttpGet("Update/{id}")]
+        public async Task<IActionResult> CouponeUpdate(Guid id)
+        {
+            var response = await _couponService.GetCouponByIdAsync(id);
+            if (response!.IsSuccess)
+            {
+                var data = JsonConvert.DeserializeObject<CouponDto>(Convert.ToString(response.Result)!);
+                return View(data);
+            }
+            throw new Exception($"Update view errors: {response.Message}");
+        }
+        [HttpPost("Update/{id}")]
+        public async Task<IActionResult> UpdateCoupon(Guid id, CouponeRequest couponeRequest)
+        {
+            var response = await _couponService.UpdateCouponAsync(id, couponeRequest);
+            if (response!.IsSuccess)
+            {
+                return RedirectToAction("CouponeIndex");
+            }
+            throw new Exception($"Update model errors: {response.Message}");
         }
 
 

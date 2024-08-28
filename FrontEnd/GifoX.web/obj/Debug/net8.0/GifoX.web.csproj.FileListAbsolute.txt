@@ -6,6 +6,8 @@ D:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\GifoX.web.deps.json
 D:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\GifoX.web.runtimeconfig.json
 D:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\GifoX.web.dll
 D:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\GifoX.web.pdb
+D:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.AssemblyReference.cache
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.GeneratedMSBuildEditorConfig.editorconfig
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.AssemblyInfoInputs.cache
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.AssemblyInfo.cs
@@ -13,6 +15,7 @@ D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.CoreCompileInputs.
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.MvcApplicationPartsAssemblyInfo.cache
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.RazorAssemblyInfo.cache
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.RazorAssemblyInfo.cs
+D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.sourcelink.json
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\staticwebassets.build.json
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\staticwebassets.development.json
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\staticwebassets\msbuild.GifoX.web.Microsoft.AspNetCore.StaticWebAssets.props
@@ -23,12 +26,9 @@ D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\staticwebassets.pack.json
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\scopedcss\bundle\GifoX.web.styles.css
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\scopedcss\projectbundle\GifoX.web.bundle.scp.css
+D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.Up2Date
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.dll
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\refint\GifoX.web.dll
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.pdb
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.genruntimeconfig.cache
 D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\ref\GifoX.web.dll
-d:\GifoX\FrontEnd\GifoX.web\bin\Debug\net8.0\Newtonsoft.Json.dll
-d:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.AssemblyReference.cache
-d:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.csproj.Up2Date
-D:\GifoX\FrontEnd\GifoX.web\obj\Debug\net8.0\GifoX.web.sourcelink.json

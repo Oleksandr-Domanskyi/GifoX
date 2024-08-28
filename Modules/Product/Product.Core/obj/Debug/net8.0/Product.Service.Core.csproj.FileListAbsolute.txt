@@ -1,0 +1,13 @@
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.AssemblyInfoInputs.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.AssemblyInfo.cs
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.csproj.CoreCompileInputs.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.sourcelink.json
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\bin\Debug\net8.0\Product.Service.Core.deps.json
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\bin\Debug\net8.0\Product.Service.Core.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\bin\Debug\net8.0\Product.Service.Core.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.csproj.AssemblyReference.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\refint\Product.Service.Core.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\Product.Service.Core.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Core\obj\Debug\net8.0\ref\Product.Service.Core.dll

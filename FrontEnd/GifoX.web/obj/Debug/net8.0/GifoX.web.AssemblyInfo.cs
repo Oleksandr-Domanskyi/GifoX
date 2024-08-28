@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GifoX.web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4299d3347db7baf71a554d508e56ed7c973c3c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bda9a20c0c67a1815b10bc5fd77da6e169daa4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GifoX.web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GifoX.web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,16 @@
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\bin\Debug\net8.0\Product.Service.Infrastructure.deps.json
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\bin\Debug\net8.0\Product.Service.Infrastructure.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\bin\Debug\net8.0\Product.Service.Infrastructure.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\bin\Debug\net8.0\Product.Service.Core.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\bin\Debug\net8.0\Product.Service.Core.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.csproj.AssemblyReference.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.AssemblyInfoInputs.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.AssemblyInfo.cs
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.csproj.CoreCompileInputs.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.sourcelink.json
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product..A03E5F50.Up2Date
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\refint\Product.Service.Infrastructure.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\Product.Service.Infrastructure.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Infrastructure\obj\Debug\net8.0\ref\Product.Service.Infrastructure.dll

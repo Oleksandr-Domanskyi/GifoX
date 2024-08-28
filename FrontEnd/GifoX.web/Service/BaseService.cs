@@ -64,6 +64,10 @@ namespace GifoX.web.Service
                     default:
                         var apiContent = await apiResposne.Content.ReadAsStringAsync();
                         var apiResponseDto = JsonConvert.DeserializeObject<ResponseDto>(apiContent);
+
+                        if (apiResponseDto == null)
+                            throw new Exception("Api Response is null");
+
                         return apiResponseDto;
                 }
             }

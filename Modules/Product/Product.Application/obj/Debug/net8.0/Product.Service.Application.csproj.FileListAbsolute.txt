@@ -1,0 +1,12 @@
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\bin\Debug\net8.0\Product.Service.Application.deps.json
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\bin\Debug\net8.0\Product.Service.Application.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\bin\Debug\net8.0\Product.Service.Application.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.AssemblyInfoInputs.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.AssemblyInfo.cs
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.csproj.CoreCompileInputs.cache
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.sourcelink.json
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\refint\Product.Service.Application.dll
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\Product.Service.Application.pdb
+D:\GifoX\Modules\ProductOpenAPI\Product.Service.Application\obj\Debug\net8.0\ref\Product.Service.Application.dll

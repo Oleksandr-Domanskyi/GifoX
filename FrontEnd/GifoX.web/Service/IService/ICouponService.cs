@@ -12,8 +12,8 @@ namespace GifoX.web.Service.IService
         Task<ResponseDto?> GetCouponAsync(string couponCode);
         Task<ResponseDto?> GetAllCouponsAsync();
         Task<ResponseDto?> GetCouponByIdAsync(Guid id);
-        Task<ResponseDto?> CreateCouponAsync(CouponeRequest couponDto);
-        Task<ResponseDto?> UpdateCouponAsync(CouponeRequest couponDto);
+        Task<ResponseDto?> CreateCouponAsync(CouponeRequest couponRequest);
+        Task<ResponseDto?> UpdateCouponAsync(Guid id, CouponeRequest couponeRequest);
         Task<ResponseDto?> DeleteCouponAsync(Guid id);
 
     }
