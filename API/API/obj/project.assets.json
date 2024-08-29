@@ -4510,11 +4510,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
-              "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj"
+            "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
+              "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj"
             },
-            "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj"
+            "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj"
             }
           }
         }

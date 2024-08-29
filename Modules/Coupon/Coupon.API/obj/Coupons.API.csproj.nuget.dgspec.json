@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {}
+    "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {}
   },
   "projects": {
-    "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
+    "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
         "projectName": "Coupons.API",
-        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\obj\\",
+        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

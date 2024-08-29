@@ -2732,11 +2732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "projectName": "Product.API",
-      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.API\\obj\\",
+      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2754,8 +2754,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+            "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
             }
           }
         }
