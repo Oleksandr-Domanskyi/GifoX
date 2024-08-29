@@ -1,0 +1,19 @@
+using System;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Product.Infrastructure.Database.DbContext;
+using Product.Infrastructure.Database.Seed;
+using Shared.Infrastructure.Database;
+using Shared.Infrastructure.Extensions;
+
+namespace Product.Infrastructure.Extensions;
+
+public static class ProductInfrastructureExtentions
+{
+    public static void AddProductInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    {
+        services.AddDatabaseContext<ProductDbContext>(configuration);
+
+        services.AddScoped<IDatabaseSeederConfiguration, ProductSeeder>();
+    }
+}

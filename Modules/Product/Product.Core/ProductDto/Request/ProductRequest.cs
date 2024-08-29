@@ -10,7 +10,7 @@ public class ProductRequest
     public string? Description { get; set; }
     public List<IFormFile>? Images { get; set; }
     public MainCategory Category { get; set; } = MainCategory.Others;
+    public SubMainCategory SubCategory { get; set; } = SubMainCategory.Others;
     public bool IsActive { get; set; } = true;
-    public Enum? SubCategory { get; set; } = null;
     public double PrNetto { get; set; }
 }

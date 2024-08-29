@@ -1,3 +1,6 @@
+D:\GifoX\API\API\bin\Debug\net8.0\Product.API.deps.json
+D:\GifoX\API\API\bin\Debug\net8.0\Product.API.runtimeconfig.json
+D:\GifoX\API\API\bin\Debug\net8.0\Product.API.exe
 D:\GifoX\API\API\bin\Debug\net8.0\appsettings.Development.json
 D:\GifoX\API\API\bin\Debug\net8.0\appsettings.json
 D:\GifoX\API\API\bin\Debug\net8.0\API.exe
@@ -91,11 +94,17 @@ D:\GifoX\API\API\bin\Debug\net8.0\Coupons.API.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Application.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Core.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Infrastructure.dll
+D:\GifoX\API\API\bin\Debug\net8.0\Product.API.dll
+D:\GifoX\API\API\bin\Debug\net8.0\Product.Core.dll
+D:\GifoX\API\API\bin\Debug\net8.0\Product.Infrastructure.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.API.pdb
+D:\GifoX\API\API\bin\Debug\net8.0\Product.API.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Application.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Core.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Infrastructure.pdb
+D:\GifoX\API\API\bin\Debug\net8.0\Product.Core.pdb
+D:\GifoX\API\API\bin\Debug\net8.0\Product.Infrastructure.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\API\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 D:\GifoX\API\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig

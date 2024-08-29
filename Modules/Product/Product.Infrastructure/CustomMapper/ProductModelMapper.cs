@@ -11,7 +11,6 @@ public class ProductModelMapper
     {
         return new ProductModel
         {
-            Id = Guid.NewGuid(),
             Name = request.Name,
             Description = request.Description,
             Images = request.Images != null ? new List<Image>() : new List<Image>(),

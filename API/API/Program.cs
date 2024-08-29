@@ -1,12 +1,15 @@
 using Coupon.Service.API.Middleware;
 using Coupons.API.Extention;
 using Coupons.Service.Infrastructure.Extentions;
+using Product.API.Extensions;
+using Shared.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddCouponeModule(builder.Configuration);
+builder.Services.AddProductModule(builder.Configuration);
 
 
 builder.Services.AddControllers();
@@ -17,7 +20,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 //Seeders
-await CouponeInfrastructureExtention.AddCouponeSeeder(app.Services);
+app.SeedAllDbContext();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

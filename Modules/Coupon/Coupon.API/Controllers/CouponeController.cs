@@ -86,7 +86,7 @@ namespace Coupons.Service.API.Controllers
             return Ok(new
             {
                 Message = $"Coupon {model.CouponCode} was Used!!!",
-                Data = model
+                Result = model
             });
         }
 

@@ -10,6 +10,8 @@ using Coupons.Service.Infrastructure.Data.Seed;
 using Coupons.Service.Infrastructure.UnitOfWork;
 using Coupons.Service.Infrastructure.Repositories;
 using Coupons.Service.Infrastructure.Services.RepositoryServices;
+using Shared.Infrastructure.Database;
+using Shared.Infrastructure.Extensions;
 
 namespace Coupons.Service.Infrastructure.Extentions
 {
@@ -17,20 +19,13 @@ namespace Coupons.Service.Infrastructure.Extentions
     {
         public static void AddCouponeInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<CouponeDbContext>(options =>
-                options.UseNpgsql(configuration.GetConnectionString("ConnectionStrings")));
+            services.AddDatabaseContext<CouponeDbContext>(configuration);
 
-            services.AddScoped<CouponeSeeder>();
+            services.AddScoped<IDatabaseSeederConfiguration, CouponeSeeder>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
             services.AddScoped<ICouponeRepository, CouponeRepository>();
             services.AddScoped<ICouponeRepositoryService, CouponRepositoryService>();
-        }
-        public static async Task AddCouponeSeeder(IServiceProvider serviceProvider)
-        {
-            using var scope = serviceProvider.CreateScope();
-            var seeder = scope.ServiceProvider.GetRequiredService<CouponeSeeder>();
-            await seeder.Seed();
         }
 
 

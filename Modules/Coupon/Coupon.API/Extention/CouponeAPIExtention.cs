@@ -14,5 +14,7 @@ public static class CouponeAPIExtention
         services.AddCouponeInfrastructure(configuration);
 
         services.AddDatabaseContext<CouponeDbContext>(configuration);
+
+
     }
 }

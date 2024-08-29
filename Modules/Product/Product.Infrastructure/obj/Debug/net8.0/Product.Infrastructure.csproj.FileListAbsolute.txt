@@ -2,7 +2,9 @@ D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Product.Infrast
 D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Product.Infrastructure.dll
 D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Product.Infrastructure.pdb
 D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Product.Core.dll
+D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Product.Core.pdb
+D:\GifoX\Modules\Product\Product.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Modules\Product\Product.Infrastructure\obj\Debug\net8.0\Product.Infrastructure.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Product\Product.Infrastructure\obj\Debug\net8.0\Product.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 D:\GifoX\Modules\Product\Product.Infrastructure\obj\Debug\net8.0\Product.Infrastructure.AssemblyInfoInputs.cache

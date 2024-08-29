@@ -4,14 +4,14 @@
     "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {}
   },
   "projects": {
-    "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
+    "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
+        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
         "projectName": "Coupons.Core",
-        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
+        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\obj\\",
+        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
-                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
+              "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
+                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
               },
               "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
                 "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
@@ -206,6 +206,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

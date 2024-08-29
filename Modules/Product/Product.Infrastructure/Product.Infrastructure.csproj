@@ -2,10 +2,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Product.Core\Product.Core.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Shared.Infrastructure\Shared.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Seed\" />
+    <Folder Include="Database\Migrations\" />
   </ItemGroup>
 
   <PropertyGroup>

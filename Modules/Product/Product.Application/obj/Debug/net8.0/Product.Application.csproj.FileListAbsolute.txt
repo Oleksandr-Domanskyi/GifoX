@@ -1,4 +1,4 @@
-d:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Application.deps.json
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Application.deps.json
 D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Application.pdb
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,4 +9,4 @@ D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Applicatio
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\refint\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.pdb
-d:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll
+D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll

@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 using Coupons.Service.Core.Domain;
 using Coupons.Service.Core.Domain.Enums;
 using Coupons.Service.Infrastructure.Data;
+using Shared.Infrastructure.Database;
 
 namespace Coupons.Service.Infrastructure.Data.Seed
 {
-    public class CouponeSeeder
+    public class CouponeSeeder : IDatabaseSeederConfiguration
     {
         private readonly CouponeDbContext _dbContext;
 
