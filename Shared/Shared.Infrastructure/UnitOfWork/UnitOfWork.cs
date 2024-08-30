@@ -21,11 +21,7 @@ namespace Coupons.Service.Infrastructure.UnitOfWork
         }
 
         public TIRepository Repository => _Repository;
-
-        public async Task<int> SaveChangesAsync()
-        {
-            return await _dbContext.SaveChangesAsync();
-        }
+        public async Task<int> SaveChangesAsync() => await _dbContext.SaveChangesAsync();
 
         protected virtual void Dispose(bool disposing)
         {

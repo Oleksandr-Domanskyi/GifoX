@@ -1,6 +1,3 @@
-D:\GifoX\API\API\bin\Debug\net8.0\Product.API.deps.json
-D:\GifoX\API\API\bin\Debug\net8.0\Product.API.runtimeconfig.json
-D:\GifoX\API\API\bin\Debug\net8.0\Product.API.exe
 D:\GifoX\API\API\bin\Debug\net8.0\appsettings.Development.json
 D:\GifoX\API\API\bin\Debug\net8.0\appsettings.json
 D:\GifoX\API\API\bin\Debug\net8.0\API.exe

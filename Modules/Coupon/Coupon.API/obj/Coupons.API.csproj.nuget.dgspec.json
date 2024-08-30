@@ -32,8 +32,8 @@
               "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj": {
                 "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj"
               },
-              "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
-                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
+              "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
+                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
               }
             }
           }
@@ -127,8 +127,8 @@
               "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
                 "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
               },
-              "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
-                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
+              "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
+                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
               }
             }
           }
@@ -242,14 +242,14 @@
         }
       }
     },
-    "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
+    "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
+        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
         "projectName": "Coupons.Infrastructure",
-        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
+        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\obj\\",
+        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -270,8 +270,8 @@
               "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
                 "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
               },
-              "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
-                "projectPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
+              "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+                "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
               }
             }
           }
@@ -336,14 +336,14 @@
         }
       }
     },
-    "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+    "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+        "projectUniqueName": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
         "projectName": "Shared.Infrastructure",
-        "projectPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+        "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\obj\\",
+        "outputPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

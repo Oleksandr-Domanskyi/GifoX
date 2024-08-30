@@ -16,22 +16,24 @@ public class ProductRepository : IProductRepository
         _dbContext = dbContext;
     }
 
-    public async Task CreateAsync(ProductModel productModel)
-        => await _dbContext.Products.AddAsync(productModel);
-
     // Add Filters
     public async Task<IEnumerable<ProductModel>> GetAllAsync()
         => await _dbContext.Products.ToListAsync();
-    public async Task<ProductModel?> GetByIdAsync(Guid id)
-        => await _dbContext.Products.FirstOrDefaultAsync(src => src.Id == id);
-    public Task UpdateAsync(ProductModel productModel)
+    public async Task<ProductModel> GetByIdAsync(Guid id)
+        => await _dbContext.Products.FirstAsync(src => src.Id == id);
+    public async Task<ProductModel> CreateAsync(ProductModel productModel)
+    {
+        await _dbContext.Products.AddAsync(productModel);
+        return productModel;
+    }
+    public ProductModel UpdateAsync(ProductModel productModel)
     {
         _dbContext.Products.Update(productModel);
-        return Task.CompletedTask;
+        return productModel;
     }
-    public Task Delete(ProductModel productModel)
+    public async Task DeleteAsync(Guid Id)
     {
-        _dbContext.Products.Remove(productModel);
-        return Task.CompletedTask;
+        var model = await _dbContext.Products.FirstAsync(src => src.Id == Id);
+        _dbContext.Products.Remove(model);
     }
 }

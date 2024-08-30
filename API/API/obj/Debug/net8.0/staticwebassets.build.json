@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "ObbBXgmIHjf7O9TZg539cmC1bL2NJvxK+kPyDt9b+PI=",
+  "Hash": "qotUDbDSrwXAijbtix9M5+crQw03ci3Q8CWdl5jK294=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+      "Identity": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
       "Version": 2,
       "Source": "Coupons.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -23,10 +23,10 @@
       "Source": "Product.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
       "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [],

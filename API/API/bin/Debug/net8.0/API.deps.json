@@ -883,6 +883,7 @@
       },
       "Product.Infrastructure/1.0.0": {
         "dependencies": {
+          "FluentResults": "3.16.0",
           "Product.Core": "1.0.0",
           "Shared.Infrastructure": "1.0.0"
         },

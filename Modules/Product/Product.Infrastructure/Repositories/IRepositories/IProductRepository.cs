@@ -1,13 +1,14 @@
 using System;
 using Product.Service.Core.Domain;
+using Shared.Infrastructure.RepositoriesManager;
 
 namespace Product.Infrastructure.Repositories.IRepositories;
 
-public interface IProductRepository
+public interface IProductRepository : IRepository
 {
     Task<IEnumerable<ProductModel>> GetAllAsync();
-    Task<ProductModel?> GetByIdAsync(Guid id);
-    Task UpdateAsync(ProductModel productModel);
-    Task CreateAsync(ProductModel productModel);
-    Task Delete(ProductModel productModel);
+    Task<ProductModel> GetByIdAsync(Guid id);
+    ProductModel UpdateAsync(ProductModel productModel);
+    Task<ProductModel> CreateAsync(ProductModel productModel);
+    Task DeleteAsync(Guid Id);
 }
