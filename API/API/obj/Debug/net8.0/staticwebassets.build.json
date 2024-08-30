@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xBSZiirFEntgIov5YwMHZP8V219P8lp8WqHs/PUOzvE=",
+  "Hash": "ObbBXgmIHjf7O9TZg539cmC1bL2NJvxK+kPyDt9b+PI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "Identity": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "Version": 2,
       "Source": "Product.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

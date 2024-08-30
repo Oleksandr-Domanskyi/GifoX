@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Coupons.Service.Core.Domain;
+using Shared.Infrastructure.RepositoriesManager;
 
 namespace Coupons.Service.Infrastructure.Repositories
 {
-    public interface ICouponeRepository
+    public interface ICouponeRepository : IRepository
     {
         Task<IEnumerable<CouponModel>> GetAllAsync();
         Task<CouponModel> GetByIdAsync(Guid Id);

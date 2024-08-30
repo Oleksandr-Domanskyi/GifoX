@@ -6,8 +6,11 @@ using Shared.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+// Add DataBase Services
+builder.Services.AddSharedInfrastructure();
+
+// Add Modules
 builder.Services.AddCouponeModule(builder.Configuration);
 builder.Services.AddProductModule(builder.Configuration);
 

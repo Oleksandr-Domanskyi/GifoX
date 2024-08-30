@@ -10,3 +10,7 @@ D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Applicatio
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\refint\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.pdb
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Core.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Core.pdb
+D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.csproj.AssemblyReference.cache
+D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product..7E280BC3.Up2Date

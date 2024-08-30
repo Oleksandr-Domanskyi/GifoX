@@ -9,14 +9,16 @@ using Coupons.Service.Infrastructure.UnitOfWork;
 using Coupons.Service.Core.Domain;
 using Coupons.Service.Core.Dto;
 using FluentResults;
+using Shared.Shared.Infrastructure.UnitOfWork;
+using Coupons.Service.Infrastructure.Data;
 
 namespace Coupons.Service.Infrastructure.Services.RepositoryServices
 {
     public class CouponRepositoryService : ICouponeRepositoryService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork<CouponeDbContext, ICouponeRepository> _unitOfWork;
 
-        public CouponRepositoryService(IUnitOfWork unitOfWork)
+        public CouponRepositoryService(IUnitOfWork<CouponeDbContext, ICouponeRepository> unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }

@@ -1,25 +1,26 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Coupons.Service.Infrastructure.Repositories;
-using Coupons.Service.Infrastructure.Data;
+
+
+using Microsoft.EntityFrameworkCore;
+using Shared.Infrastructure.RepositoriesManager;
+using Shared.Shared.Infrastructure.UnitOfWork;
 
 namespace Coupons.Service.Infrastructure.UnitOfWork
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork<TDbContext, TIRepository> : IUnitOfWork<TDbContext, TIRepository>
+    where TDbContext : DbContext
+    where TIRepository : IRepository
     {
         private bool disposed = false;
-        private readonly CouponeDbContext _dbContext;
-        private readonly ICouponeRepository _couponeRepository;
+        private readonly TDbContext _dbContext;
+        private readonly TIRepository _Repository;
 
-        public UnitOfWork(CouponeDbContext dbContext, ICouponeRepository couponeRepository)
+        public UnitOfWork(TDbContext dbContext, TIRepository repository)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
-            _couponeRepository = couponeRepository;
+            _Repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
 
-        public ICouponeRepository Repository => _couponeRepository;
+        public TIRepository Repository => _Repository;
 
         public async Task<int> SaveChangesAsync()
         {

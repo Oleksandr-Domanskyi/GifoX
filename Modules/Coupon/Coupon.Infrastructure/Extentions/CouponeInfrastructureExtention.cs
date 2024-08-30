@@ -23,7 +23,6 @@ namespace Coupons.Service.Infrastructure.Extentions
 
             services.AddScoped<IDatabaseSeederConfiguration, CouponeSeeder>();
 
-            services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
             services.AddScoped<ICouponeRepository, CouponeRepository>();
             services.AddScoped<ICouponeRepositoryService, CouponRepositoryService>();
         }
