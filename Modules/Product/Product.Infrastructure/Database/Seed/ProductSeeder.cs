@@ -9,19 +9,19 @@ namespace Product.Infrastructure.Database.Seed;
 
 public class ProductSeeder : IDatabaseSeederConfiguration
 {
-    private readonly ProductDbContext _dbContext;
+  private readonly ProductDbContext _dbContext;
 
-    public ProductSeeder(ProductDbContext dbContext)
+  public ProductSeeder(ProductDbContext dbContext)
+  {
+    _dbContext = dbContext;
+  }
+  public async Task Seed()
+  {
+    if (await _dbContext.Database.CanConnectAsync())
     {
-        _dbContext = dbContext;
-    }
-    public async Task Seed()
-    {
-        if (await _dbContext.Database.CanConnectAsync())
-        {
-            if (!_dbContext.Products.Any())
-            {
-                var seed = new List<ProductModel>()
+      if (!_dbContext.Products.Any())
+      {
+        var seed = new List<ProductModel>()
                 {
                   new ProductModel
                   {
@@ -172,11 +172,11 @@ public class ProductSeeder : IDatabaseSeederConfiguration
                     UserId = Guid.NewGuid().ToString(),
                   }
                 };
-                await _dbContext.Products.AddRangeAsync(seed);
-                await _dbContext.SaveChangesAsync();
+        await _dbContext.Products.AddRangeAsync(seed);
+        await _dbContext.SaveChangesAsync();
 
-            }
-        }
+      }
     }
+  }
 
 }

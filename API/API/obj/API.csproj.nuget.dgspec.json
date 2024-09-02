@@ -32,8 +32,8 @@
               "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
                 "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj"
               },
-              "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
-                "projectPath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj"
+              "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
+                "projectPath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj"
               }
             }
           }
@@ -115,8 +115,8 @@
               "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj": {
                 "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj"
               },
-              "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
-                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
+              "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
+                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
               }
             }
           }
@@ -210,8 +210,8 @@
               "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
                 "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
               },
-              "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
-                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
+              "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
+                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
               }
             }
           }
@@ -325,14 +325,14 @@
         }
       }
     },
-    "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
+    "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
+        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
         "projectName": "Coupons.Infrastructure",
-        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
+        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\obj\\",
+        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -419,14 +419,14 @@
         }
       }
     },
-    "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
+    "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+        "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
         "projectName": "Product.API",
-        "projectPath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+        "projectPath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\Modules\\Product\\Product.API\\obj\\",
+        "outputPath": "d:\\GifoX\\Modules\\Product\\Product.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -446,6 +446,9 @@
             "projectReferences": {
               "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
                 "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+              },
+              "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
+                "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
               }
             }
           }
@@ -612,6 +615,77 @@
             "FluentResults": {
               "target": "Package",
               "version": "[3.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+        "projectName": "Product.Shared",
+        "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
+        "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

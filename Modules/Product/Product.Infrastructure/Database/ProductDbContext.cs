@@ -23,36 +23,6 @@ public class ProductDbContext : ModuleDbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<ProductModel>()
-            .HasKey(x => x.Id);
-
-        modelBuilder.Entity<ProductModel>()
-            .Property(x => x.Id)
-            .ValueGeneratedOnAdd();
-
-        modelBuilder.Entity<ProductModel>()
-            .Property(p => p.PrBrutto);
-
-        modelBuilder.Entity<ProductModel>()
-            .Property(p => p.Category)
-            .HasConversion(
-                v => v.ToString(),
-                v => (MainCategory)Enum.Parse(typeof(MainCategory), v));
-
-        modelBuilder.Entity<ProductModel>()
-            .Property(p => p.SubCategory)
-            .HasConversion(
-                v => v.ToString(),
-                v => (SubMainCategory)Enum.Parse(typeof(SubMainCategory), v));
-
-
-        modelBuilder.Entity<ClientFeedback>()
-            .HasKey(x => x.Id);
-
-        modelBuilder.Entity<ClientFeedback>()
-          .Property(p => p.Id)
-          .ValueGeneratedOnAdd();
-
         base.OnModelCreating(modelBuilder);
     }
 }

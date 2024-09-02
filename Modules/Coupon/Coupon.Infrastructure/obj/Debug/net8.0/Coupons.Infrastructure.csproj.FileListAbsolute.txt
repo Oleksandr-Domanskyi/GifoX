@@ -1,5 +1,5 @@
-d:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Infrastructure.deps.json
-d:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Infrastructure.runtimeconfig.json
+D:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Infrastructure.deps.json
+D:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Infrastructure.runtimeconfig.json
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Infrastructure.dll
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Infrastructure.pdb
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\bin\Debug\net8.0\Coupons.Core.dll
@@ -12,9 +12,9 @@ D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastru
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.AssemblyInfo.cs
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.csproj.CoreCompileInputs.cache
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.sourcelink.json
-d:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons..EAE7A7FE.Up2Date
+D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons..EAE7A7FE.Up2Date
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.dll
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\refint\Coupons.Infrastructure.dll
 D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.pdb
-d:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.genruntimeconfig.cache
-d:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\ref\Coupons.Infrastructure.dll
+D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\Coupons.Infrastructure.genruntimeconfig.cache
+D:\GifoX\Modules\Coupon\Coupon.Infrastructure\obj\Debug\net8.0\ref\Coupons.Infrastructure.dll

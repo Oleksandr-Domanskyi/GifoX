@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GClWNt7Q+Nk=",
+  "dgSpecHash": "OGZY4t4AMOg=",
   "success": true,
-  "projectFilePath": "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
+  "projectFilePath": "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

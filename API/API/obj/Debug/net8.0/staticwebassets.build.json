@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "qotUDbDSrwXAijbtix9M5+crQw03ci3Q8CWdl5jK294=",
+  "Hash": "mOYy0o7T0aKb7RtjrVsTl/EyqJdxO5RaYW36/Jo3OFg=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+      "Identity": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
       "Version": 2,
       "Source": "Coupons.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

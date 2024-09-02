@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj": {}
+    "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj": {}
   },
   "projects": {
-    "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj": {
+    "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
+        "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
         "projectName": "Product.Application",
-        "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
+        "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Application\\obj\\",
+        "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

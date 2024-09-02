@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Shared.Infrastructure.Database;
-using Shared.Infrastructure.Database.IConfiguration;
 using Shared.Shared.Infrastructure.UnitOfWork;
 
 namespace Shared.Infrastructure.Extensions;
