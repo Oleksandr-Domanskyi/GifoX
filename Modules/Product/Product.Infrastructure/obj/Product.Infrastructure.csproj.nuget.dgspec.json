@@ -99,8 +99,8 @@
               "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj": {
                 "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj"
               },
-              "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
-                "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
+              "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+                "projectPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+    "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+        "projectUniqueName": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
         "projectName": "Shared.Infrastructure",
-        "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+        "projectPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\obj\\",
+        "outputPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

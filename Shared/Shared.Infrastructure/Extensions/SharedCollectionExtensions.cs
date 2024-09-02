@@ -23,7 +23,6 @@ public static class SharedCollectionExtensions
         {
             options.UseNpgsql(configuration.GetConnectionString("ConnectionStrings"),
                 e => e.MigrationsAssembly(typeof(T).Assembly.FullName));
-            var path = typeof(T).Assembly.FullName;
         });
     }
 

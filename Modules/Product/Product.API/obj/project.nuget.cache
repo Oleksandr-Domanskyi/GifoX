@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F5xBBI0yNMY=",
+  "dgSpecHash": "9zDqWTI9268=",
   "success": true,
-  "projectFilePath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+  "projectFilePath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",

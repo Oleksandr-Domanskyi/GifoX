@@ -20,10 +20,6 @@ namespace Product.Shared.ApiClients
 
         public async Task<CouponeResponse<CouponeDtoResponse>> ApplyCouponeAsync(string couponCode)
         {
-            if (string.IsNullOrWhiteSpace(couponCode))
-            {
-                throw new ArgumentException("Coupon code cannot be null or empty.", nameof(couponCode));
-            }
             var request = new CouponeRequest
             {
                 Url = $"/UseCupone/{couponCode}",
@@ -34,13 +30,7 @@ namespace Product.Shared.ApiClients
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadFromJsonAsync<CouponeResponse<CouponeDtoResponse>>();
-
-                if (responseData == null)
-                {
-                    throw new Exception("Received empty response data");
-                }
-
-                return responseData;
+                return responseData!;
             }
             else
             {

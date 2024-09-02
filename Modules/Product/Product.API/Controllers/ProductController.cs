@@ -25,6 +25,11 @@ namespace Product.Service.API.Controllers
         {
             return Ok();
         }
+        [HttpGet("{Id}/apply-coupon")]
+        public async Task<IActionResult> ApplyCoupone(Guid id, string couponCode)
+        {
+            return Ok();
+        }
         [HttpPost]
         public async Task<IActionResult> CreateProduct()
         {
@@ -40,5 +45,6 @@ namespace Product.Service.API.Controllers
         {
             return Ok();
         }
+
     }
 }
