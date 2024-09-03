@@ -870,12 +870,27 @@
       },
       "Product.API/1.0.0": {
         "dependencies": {
+          "MediatR": "12.4.0",
+          "Product.Application": "1.0.0",
           "Product.Infrastructure": "1.0.0",
           "Product.Shared": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "Product.API.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Product.Application/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.4.0",
+          "Product.Core": "1.0.0",
+          "Product.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Product.Application.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -896,6 +911,7 @@
         "dependencies": {
           "FluentResults": "3.16.0",
           "Product.Core": "1.0.0",
+          "Product.Shared": "1.0.0",
           "Shared.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -1539,6 +1555,11 @@
       "sha512": ""
     },
     "Product.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Product.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

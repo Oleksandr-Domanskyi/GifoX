@@ -2,7 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Product.Application.CQRS.Commands.ProductApplyCoupon;
+using Product.Application.CQRS.Commands.ProductCreate;
+using Product.Application.CQRS.Commands.ProductDelete;
+using Product.Application.CQRS.Commands.ProductUpdate;
+using Product.Application.CQRS.Queries.ProductGetAll;
+using Product.Application.CQRS.Queries.ProductGetById;
+using Product.Service.Core.ProductDto.Request;
 
 namespace Product.Service.API.Controllers
 {
@@ -10,39 +18,46 @@ namespace Product.Service.API.Controllers
     [Route("[controller]")]
     public class ProductController : ControllerBase
     {
-        public ProductController()
+        private readonly IMediator _mediator;
+        public ProductController(IMediator mediator)
         {
-
+            _mediator = mediator;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            return Ok();
+            var model = await _mediator.Send(new ProductGetAllQuery());
+            return Ok(model);
         }
         [HttpGet("{Id}")]
         public async Task<IActionResult> GetById(Guid id)
         {
-            return Ok();
+            var model = await _mediator.Send(new ProductGetByIdQuery(id));
+            return Ok(model);
         }
         [HttpGet("{Id}/apply-coupon")]
-        public async Task<IActionResult> ApplyCoupone(Guid id, string couponCode)
+        public async Task<IActionResult> ApplyCoupone(Guid Id, string couponCode)
         {
-            return Ok();
+            var model = await _mediator.Send(new ProductApplyCouponCommand(Id, couponCode));
+            return Ok(model);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateProduct()
+        public async Task<IActionResult> CreateProduct([FromBody] ProductRequest productRequest)
         {
-            return Ok();
+            var model = await _mediator.Send(new ProductCreateCommand(productRequest));
+            return Ok(model);
         }
-        [HttpPut]
-        public async Task<IActionResult> UpdateProduct()
+        [HttpPut("{Id}")]
+        public async Task<IActionResult> UpdateProduct([FromBody] ProductRequest productRequest, Guid Id)
         {
-            return Ok();
+            var model = await _mediator.Send(new ProductUpdateCommand(productRequest, Id));
+            return Ok(model);
         }
         [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteProduct(Guid id)
         {
+            await _mediator.Send(new ProductDeleteCommand(id));
             return Ok();
         }
 

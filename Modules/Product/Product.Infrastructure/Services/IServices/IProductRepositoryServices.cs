@@ -9,8 +9,9 @@ public interface IProductRepositoryServices
 {
     Task<Result<IEnumerable<ProductDto>>> GetAll();
     Task<Result<ProductDto>> GetById(Guid Id);
-    Task<Result> AddProduct(ProductRequest model);
+    Task<Result<ProductDto>> AddProduct(ProductRequest model);
     Task<Result<ProductDto>> UpdateProduct(ProductRequest model, Guid ProductId, string UserId);
     Task<Result> DeleteProduct(Guid Id);
+    Task<Result<ProductDto>> ApplyCouponetoProduct(Guid ProductId, string CouponCode);
 
 }

@@ -127,3 +127,5 @@ D:\GifoX\API\API\bin\Debug\net8.0\API.pdb
 D:\GifoX\API\API\obj\Debug\net8.0\API.csproj.Up2Date
 D:\GifoX\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\GifoX\API\API\obj\Debug\net8.0\ref\API.dll
+D:\GifoX\API\API\bin\Debug\net8.0\Product.Application.dll
+D:\GifoX\API\API\bin\Debug\net8.0\Product.Application.pdb

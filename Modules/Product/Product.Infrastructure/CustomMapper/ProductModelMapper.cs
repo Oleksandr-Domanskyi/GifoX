@@ -48,6 +48,7 @@ public class ProductModelMapper
     {
         return models.Select(model => new ProductDto
         {
+            Id = model.Id,
             Name = model.Name,
             Description = model.Description,
             Characteristics = model.Characteristics,

@@ -1,13 +1,25 @@
 using System;
 using MediatR;
 using Product.Core.Dto;
+using Product.Infrastructure.Services.IServices;
 
 namespace Product.Application.CQRS.Queries.ProductGetAll;
 
 public class ProductGetAllQueryHandler : IRequestHandler<ProductGetAllQuery, IEnumerable<ProductDto>>
 {
-    public Task<IEnumerable<ProductDto>> Handle(ProductGetAllQuery request, CancellationToken cancellationToken)
+    private readonly IProductRepositoryServices _productRepositoryServices;
+
+    public ProductGetAllQueryHandler(IProductRepositoryServices productRepositoryServices)
     {
-        throw new NotImplementedException();
+        _productRepositoryServices = productRepositoryServices;
+    }
+    public async Task<IEnumerable<ProductDto>> Handle(ProductGetAllQuery request, CancellationToken cancellationToken)
+    {
+        var model = await _productRepositoryServices.GetAll();
+        if (model.IsSuccess)
+        {
+            return model.Value;
+        }
+        throw new Exception(string.Join(",", model.Errors.Select(error => error.Message)));
     }
 }

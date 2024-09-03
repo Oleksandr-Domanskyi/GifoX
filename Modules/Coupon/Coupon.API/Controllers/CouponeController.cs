@@ -34,7 +34,7 @@ namespace Coupons.Service.API.Controllers
 
             return Ok(new
             {
-                Result = model,
+                Content = model,
                 IsSuccess = true,
                 Message = "Get All success"
             });
@@ -47,7 +47,7 @@ namespace Coupons.Service.API.Controllers
             var model = await _mediator.Send(new CouponeGetByCodeQuery(code));
             return Ok(new
             {
-                Result = model,
+                Content = model,
                 IsSuccess = true,
                 Message = "Was Found Successfully!!!"
             });
@@ -60,7 +60,7 @@ namespace Coupons.Service.API.Controllers
             var model = await _mediator.Send(new CouponeGetByIdQuery(id));
             return Ok(new
             {
-                Result = model,
+                Content = model,
                 IsSuccess = true,
                 Message = "Was Found Successfully!!!"
             });
@@ -72,7 +72,7 @@ namespace Coupons.Service.API.Controllers
             await _mediator.Send(command);
             return Ok(new
             {
-                Result = "",
+                Content = "",
                 IsSuccess = true,
                 Message = "Coupon created successfully!"
             });
@@ -86,7 +86,8 @@ namespace Coupons.Service.API.Controllers
             return Ok(new
             {
                 Message = $"Coupon {model.CouponCode} was Used!!!",
-                Result = model
+                IsSuccess = true,
+                Content = model
             });
         }
 
@@ -98,7 +99,7 @@ namespace Coupons.Service.API.Controllers
             var model = await _mediator.Send(command);
             return Ok(new
             {
-                Result = model,
+                Content = model,
                 IsSuccess = true,
                 Message = $"Coupon {model.CouponCode} was Updated successfully."
             });
@@ -111,7 +112,7 @@ namespace Coupons.Service.API.Controllers
             await _mediator.Send(new CouponeDeleteCommand(id));
             return Ok(new
             {
-                Result = "",
+                Content = "",
                 IsSuccess = true,
                 Message = "Was Deleted Successfully!!!",
             });

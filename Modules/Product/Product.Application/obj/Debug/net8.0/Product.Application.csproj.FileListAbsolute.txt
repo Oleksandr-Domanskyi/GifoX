@@ -14,3 +14,9 @@ D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Applicatio
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\refint\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.pdb
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Infrastructure.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Shared.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Infrastructure.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Infrastructure.pdb
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Shared.pdb
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Infrastructure.pdb

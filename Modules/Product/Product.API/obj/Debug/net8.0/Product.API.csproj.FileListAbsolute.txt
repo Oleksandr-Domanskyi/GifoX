@@ -28,3 +28,5 @@ D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\Product.API.dll
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\refint\Product.API.dll
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\Product.API.pdb
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\ref\Product.API.dll
+D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Application.dll
+D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Application.pdb

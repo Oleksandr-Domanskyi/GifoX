@@ -7,19 +7,23 @@ using Product.Infrastructure.Services.IServices;
 using Product.Service.Core.ProductDto.Request;
 using Shared.Shared.Infrastructure.UnitOfWork;
 using Product.Product.Infrastructure.CustomMapper;
+using Product.Shared.Contracts;
 
 namespace Product.Infrastructure.Services.ProductRepositoryServices;
 
 public class ProductRepositoryServices : IProductRepositoryServices
 {
     private readonly IUnitOfWork<ProductDbContext, IProductRepository> _unitOfWork;
+    private readonly ICouponHttpClient _couponHttpClient;
 
-    public ProductRepositoryServices(IUnitOfWork<ProductDbContext, IProductRepository> unitOfWork)
+    public ProductRepositoryServices(IUnitOfWork<ProductDbContext, IProductRepository> unitOfWork,
+                                     ICouponHttpClient couponHttpClient)
     {
+        _couponHttpClient = couponHttpClient;
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<Result> AddProduct(ProductRequest model)
+    public async Task<Result<ProductDto>> AddProduct(ProductRequest model)
         => await Result.Try(async Task () => await AddProductAsync(model));
     public async Task<Result> DeleteProduct(Guid Id)
         => await Result.Try(async Task () => await DeleteProductAsync(Id));
@@ -29,6 +33,8 @@ public class ProductRepositoryServices : IProductRepositoryServices
         => await Result.Try(async Task<ProductDto> () => await GetByIdProductAsync(Id));
     public async Task<Result<ProductDto>> UpdateProduct(ProductRequest model, Guid ProductId, string UserId)
         => await Result.Try(async Task<ProductDto> () => await UpdateProductAsync(model, ProductId, UserId));
+    public async Task<Result<ProductDto>> ApplyCouponetoProduct(Guid ProductId, string CouponCode)
+        => await Result.Try(async Task<ProductDto> () => await ApplyCouponetoProductAsync(ProductId, CouponCode));
 
 
     private async Task<ProductDto> AddProductAsync(ProductRequest model)
@@ -66,6 +72,17 @@ public class ProductRepositoryServices : IProductRepositoryServices
         await _unitOfWork.SaveChangesAsync();
 
         return ProductModelMapper.MapProductModelToProductDto(result);
+
+    }
+    private async Task<ProductDto> ApplyCouponetoProductAsync(Guid ProductId, string CouponeCode)
+    {
+        var productDomain = await _unitOfWork.Repository.GetByIdAsync(ProductId);
+        var couponDto = await _couponHttpClient.ApplyCouponeAsync(CouponeCode);
+        if (couponDto == null && productDomain == null)
+        {
+            throw new Exception("Something wrong to apply coupone to Product");
+        }
+        return ProductModelMapper.MapProductModelToProductDto(productDomain);
 
     }
 }

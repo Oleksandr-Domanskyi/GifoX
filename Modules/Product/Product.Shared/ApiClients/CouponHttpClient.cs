@@ -22,7 +22,7 @@ namespace Product.Shared.ApiClients
         {
             var request = new CouponeRequest
             {
-                Url = $"/UseCupone/{couponCode}",
+                Url = $"Coupone/UseCupone/{couponCode}",
                 Data = new StringContent(string.Empty)
             };
             var response = await _httpClient.PutAsync(request.Url, request.Data);
@@ -30,6 +30,7 @@ namespace Product.Shared.ApiClients
             if (response.IsSuccessStatusCode)
             {
                 var responseData = await response.Content.ReadFromJsonAsync<CouponeResponse<CouponeDtoResponse>>();
+                responseData!.IsSuccess = true;
                 return responseData!;
             }
             else

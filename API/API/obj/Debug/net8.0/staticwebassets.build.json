@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "FmQAO8sjGQkNm7FQVXKXgNaFucxMz66sKjm4hI1P2i0=",
+  "Hash": "qotUDbDSrwXAijbtix9M5+crQw03ci3Q8CWdl5jK294=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+      "Identity": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
       "Version": 2,
       "Source": "Coupons.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "Identity": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "Version": 2,
       "Source": "Product.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

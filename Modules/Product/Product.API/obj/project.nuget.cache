@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9zDqWTI9268=",
+  "dgSpecHash": "z9v1ukxGkG0=",
   "success": true,
-  "projectFilePath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+  "projectFilePath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
+    "C:\\Users\\Sasha\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
