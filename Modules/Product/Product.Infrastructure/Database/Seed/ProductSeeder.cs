@@ -1,6 +1,7 @@
 using System;
 using Product.Core.Domain;
 using Product.Infrastructure.Database.DbContext;
+using Product.Product.Core.Domain;
 using Product.Service.Core.Domain;
 using Shared.Infrastructure.Database;
 using static Product.Service.Core.Domain.Enums.Category;

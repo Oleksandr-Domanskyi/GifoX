@@ -1128,13 +1128,24 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "Microsoft.Extensions.Http": "8.0.0"
+          "Microsoft.Extensions.Http": "8.0.0",
+          "Shared.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Product.Shared.dll": {}
         },
         "runtime": {
           "bin/placeholder/Product.Shared.dll": {}
+        }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
         }
       },
       "Shared.Infrastructure/1.0.0": {
@@ -2950,6 +2961,11 @@
       "path": "../Product.Shared/Product.Shared.csproj",
       "msbuildProject": "../Product.Shared/Product.Shared.csproj"
     },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../../../Shared/Shared.Core/Shared.Core.csproj"
+    },
     "Shared.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../../../Shared/Shared.Infrastructure/Shared.Infrastructure.csproj",
@@ -2971,11 +2987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "projectName": "Product.API",
-      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.API\\obj\\",
+      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2999,8 +3015,8 @@
             "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
               "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
             },
-            "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
+            "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
             }
           }
         }

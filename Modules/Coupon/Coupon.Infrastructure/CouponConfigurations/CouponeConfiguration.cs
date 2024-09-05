@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Coupons.Service.Core.Domain.Enums;
 
 namespace Coupons.Service.Core.Domain
 {

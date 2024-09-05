@@ -1,13 +1,17 @@
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.API.deps.json
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.API.dll
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.API.pdb
+D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Application.dll
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Core.dll
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Infrastructure.dll
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Shared.dll
+D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Shared.Core.dll
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Infrastructure.pdb
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Shared.pdb
+D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Application.pdb
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Core.pdb
+D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Shared.Core.pdb
 D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\Product.API.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\Product.API.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,5 +32,3 @@ D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\Product.API.dll
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\refint\Product.API.dll
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\Product.API.pdb
 D:\GifoX\Modules\Product\Product.API\obj\Debug\net8.0\ref\Product.API.dll
-D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Application.dll
-D:\GifoX\Modules\Product\Product.API\bin\Debug\net8.0\Product.Application.pdb

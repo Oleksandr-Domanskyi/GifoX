@@ -1,9 +1,6 @@
-using System;
-using System.Net.Http;
 using System.Net.Http.Json;
-using System.Threading.Tasks;
+using Coupons.Service.Core.Dto;
 using Product.Shared.Contracts;
-using Product.Shared.Dtos;
 using Product.Shared.Requests;
 using Product.Shared.Responses;
 
@@ -18,7 +15,7 @@ namespace Product.Shared.ApiClients
             _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
         }
 
-        public async Task<CouponeResponse<CouponeDtoResponse>> ApplyCouponeAsync(string couponCode)
+        public async Task<CouponDto> GetSharedCouponeByCode(string couponCode)
         {
             var request = new CouponeRequest
             {
@@ -29,9 +26,13 @@ namespace Product.Shared.ApiClients
 
             if (response.IsSuccessStatusCode)
             {
-                var responseData = await response.Content.ReadFromJsonAsync<CouponeResponse<CouponeDtoResponse>>();
-                responseData!.IsSuccess = true;
-                return responseData!;
+                var responseData = await response.Content.ReadFromJsonAsync<CouponeResponse<CouponDto>>();
+
+                if (responseData!.IsSuccess || responseData.Content != null)
+                {
+                    return responseData!.Content;
+                }
+                throw new Exception($"Parsing error: {responseData.Message}");
             }
             else
             {

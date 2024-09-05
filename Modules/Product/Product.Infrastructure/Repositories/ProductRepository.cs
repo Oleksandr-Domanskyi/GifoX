@@ -3,6 +3,7 @@ using System.Reflection.Metadata.Ecma335;
 using Microsoft.EntityFrameworkCore;
 using Product.Infrastructure.Database.DbContext;
 using Product.Infrastructure.Repositories.IRepositories;
+using Product.Product.Core.Domain;
 using Product.Service.Core.Domain;
 
 namespace Product.Infrastructure.Repositories;

@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Coupons.Service.Core.Domain.Enums;
+using Shared.Shared.Core.Enum.CouponEnum;
 
 namespace Coupons.Service.Core.Request
 {
@@ -11,7 +7,7 @@ namespace Coupons.Service.Core.Request
         public string CouponCode { get; set; } = default!;
         public double DiscountAmount { get; set; } = default;
         public int MinAmount { get; set; } = default!;
-        public string DiscountType { get; set; } = DiscountTypes.FixedAmount.ToString();
+        public string DiscountType { get; set; } = CouponDiscountTypes.FixedAmount.ToString();
         public int UsableAmount { get; set; } = default!;
     }
 }

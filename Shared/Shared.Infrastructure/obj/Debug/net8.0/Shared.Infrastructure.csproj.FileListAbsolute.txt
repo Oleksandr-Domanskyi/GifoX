@@ -1,5 +1,5 @@
-d:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.deps.json
-d:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.runtimeconfig.json
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.deps.json
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.runtimeconfig.json
 D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.csproj.AssemblyReference.cache
@@ -11,5 +11,5 @@ D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.sou
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\refint\Shared.Infrastructure.dll
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.pdb
-d:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.genruntimeconfig.cache
-d:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\ref\Shared.Infrastructure.dll
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.genruntimeconfig.cache
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\ref\Shared.Infrastructure.dll

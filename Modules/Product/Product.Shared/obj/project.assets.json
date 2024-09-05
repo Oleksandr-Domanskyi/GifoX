@@ -275,6 +275,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
+        }
       }
     }
   },
@@ -772,12 +782,18 @@
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../../../Shared/Shared.Core/Shared.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
-      "Microsoft.Extensions.Http >= 8.0.0"
+      "Microsoft.Extensions.Http >= 8.0.0",
+      "Shared.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -807,7 +823,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+              "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

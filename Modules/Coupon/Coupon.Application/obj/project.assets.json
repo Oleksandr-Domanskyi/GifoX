@@ -912,6 +912,9 @@
       "Coupons.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Shared.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Coupons.Core.dll": {}
         },
@@ -934,6 +937,16 @@
         },
         "runtime": {
           "bin/placeholder/Coupons.Infrastructure.dll": {}
+        }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
         }
       },
       "Shared.Infrastructure/1.0.0": {
@@ -2331,6 +2344,11 @@
       "type": "project",
       "path": "../Coupon.Infrastructure/Coupons.Infrastructure.csproj",
       "msbuildProject": "../Coupon.Infrastructure/Coupons.Infrastructure.csproj"
+    },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../../../Shared/Shared.Core/Shared.Core.csproj"
     },
     "Shared.Infrastructure/1.0.0": {
       "type": "project",

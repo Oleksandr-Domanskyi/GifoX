@@ -1397,11 +1397,24 @@
       "Coupons.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Shared.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Coupons.Core.dll": {}
         },
         "runtime": {
           "bin/placeholder/Coupons.Core.dll": {}
+        }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
         }
       },
       "Shared.Infrastructure/1.0.0": {
@@ -3575,6 +3588,11 @@
       "path": "../Coupon.Core/Coupons.Core.csproj",
       "msbuildProject": "../Coupon.Core/Coupons.Core.csproj"
     },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../../../Shared/Shared.Core/Shared.Core.csproj"
+    },
     "Shared.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../../../Shared/Shared.Infrastructure/Shared.Infrastructure.csproj",
@@ -3623,8 +3641,8 @@
             "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
               "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
             },
-            "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
-              "projectPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
+            "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
+              "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
             }
           }
         }

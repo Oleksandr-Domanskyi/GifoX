@@ -1,6 +1,4 @@
-using System;
-using Coupons.Service.Core.Request;
-using Coupons.Service.Core.Domain.Enums;
+using Shared.Shared.Core.Enum.CouponEnum;
 
 namespace Coupons.Service.Core.Domain
 {
@@ -10,7 +8,7 @@ namespace Coupons.Service.Core.Domain
         private string _couponCode = default!;
         private double _discountAmount;
         private int _minAmount;
-        private string _discountType = DiscountTypes.Percentage.ToString();
+        private string _discountType = CouponDiscountTypes.Percentage.ToString();
         private int _usableAmount = default!;
         private bool _CanBeUsed;
 
@@ -42,11 +40,11 @@ namespace Coupons.Service.Core.Domain
         {
             if (totalAmount >= MinAmount)
             {
-                if (DiscountType == DiscountTypes.FixedAmount.ToString())
+                if (DiscountType == CouponDiscountTypes.FixedAmount.ToString())
                 {
                     return DiscountAmount;
                 }
-                else if (DiscountType == DiscountTypes.Percentage.ToString())
+                else if (DiscountType == CouponDiscountTypes.Percentage.ToString())
                 {
                     return totalAmount * (DiscountAmount / 100);
                 }

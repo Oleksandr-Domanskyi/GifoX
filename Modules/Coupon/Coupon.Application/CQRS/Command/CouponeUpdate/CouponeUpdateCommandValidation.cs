@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Coupons.Service.Core.Domain.Enums;
 using FluentValidation;
+using Shared.Shared.Core.Enum.CouponEnum;
 
 namespace Coupon.Service.Application.CQRS.Command.CouponeUpdate
 {
@@ -29,7 +25,7 @@ namespace Coupon.Service.Application.CQRS.Command.CouponeUpdate
         }
         private bool BeValidDiscountType(string discountType)
         {
-            return Enum.TryParse(typeof(DiscountTypes), discountType, out _);
+            return Enum.TryParse(typeof(CouponDiscountTypes), discountType, out _);
         }
 
 

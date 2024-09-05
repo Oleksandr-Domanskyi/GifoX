@@ -789,6 +789,9 @@
         }
       },
       "Coupons.Core/1.0.0": {
+        "dependencies": {
+          "Shared.Core": "1.0.0"
+        },
         "runtime": {
           "Coupons.Core.dll": {
             "assemblyVersion": "1.0.0",
@@ -806,6 +809,14 @@
         },
         "runtime": {
           "Coupons.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Shared.Core/1.0.0": {
+        "runtime": {
+          "Shared.Core.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1367,6 +1378,11 @@
       "sha512": ""
     },
     "Coupons.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

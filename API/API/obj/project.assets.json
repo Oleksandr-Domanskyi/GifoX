@@ -1723,6 +1723,9 @@
       "Coupons.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Shared.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Coupons.Core.dll": {}
         },
@@ -1816,13 +1819,24 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
-          "Microsoft.Extensions.Http": "8.0.0"
+          "Microsoft.Extensions.Http": "8.0.0",
+          "Shared.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Product.Shared.dll": {}
         },
         "runtime": {
           "bin/placeholder/Product.Shared.dll": {}
+        }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
         }
       },
       "Shared.Infrastructure/1.0.0": {
@@ -4565,6 +4579,11 @@
       "type": "project",
       "path": "../../Modules/Product/Product.Shared/Product.Shared.csproj",
       "msbuildProject": "../../Modules/Product/Product.Shared/Product.Shared.csproj"
+    },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../../Shared/Shared.Core/Shared.Core.csproj"
     },
     "Shared.Infrastructure/1.0.0": {
       "type": "project",

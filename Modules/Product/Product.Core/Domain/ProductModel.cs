@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
 using Product.Core.Domain;
+using Product.Service.Core.Domain;
 using Product.Service.Core.Domain.Enums;
 using static Product.Service.Core.Domain.Enums.Category;
 
-namespace Product.Service.Core.Domain
+namespace Product.Product.Core.Domain
 {
     public class ProductModel
     {

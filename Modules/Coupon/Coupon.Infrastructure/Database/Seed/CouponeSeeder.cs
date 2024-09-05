@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Coupons.Service.Core.Domain;
-using Coupons.Service.Core.Domain.Enums;
-using Coupons.Service.Infrastructure.Data;
 using Shared.Infrastructure.Database;
+using Shared.Shared.Core.Enum.CouponEnum;
 
 namespace Coupons.Service.Infrastructure.Data.Seed
 {
@@ -30,7 +25,7 @@ namespace Coupons.Service.Infrastructure.Data.Seed
                             CouponCode = "XD21ZHS",
                             MinAmount = 40,
                             DiscountAmount = 20,
-                            DiscountType = DiscountTypes.Percentage.ToString(),
+                            DiscountType = CouponDiscountTypes.Percentage.ToString(),
                             CanBeUsed = true,
                             UsableAmount = 1
                         },
@@ -39,7 +34,7 @@ namespace Coupons.Service.Infrastructure.Data.Seed
                             CouponCode = "FoXiDerD",
                             MinAmount = 10,
                             DiscountAmount = 5,
-                            DiscountType = DiscountTypes.FixedAmount.ToString(),
+                            DiscountType = CouponDiscountTypes.FixedAmount.ToString(),
                             CanBeUsed = true,
                             UsableAmount = 2
                         },
@@ -48,7 +43,7 @@ namespace Coupons.Service.Infrastructure.Data.Seed
                             CouponCode = "3Fe2ZoZDX",
                             MinAmount = 120,
                             DiscountAmount = 60,
-                            DiscountType = DiscountTypes.Percentage.ToString(),
+                            DiscountType = CouponDiscountTypes.Percentage.ToString(),
                             CanBeUsed = true,
                             UsableAmount = 3
                         },
@@ -57,7 +52,7 @@ namespace Coupons.Service.Infrastructure.Data.Seed
                             CouponCode = "X23S14SDZc",
                             MinAmount = 15,
                             DiscountAmount = 7.5,
-                            DiscountType = DiscountTypes.FixedAmount.ToString(),
+                            DiscountType = CouponDiscountTypes.FixedAmount.ToString(),
                             CanBeUsed = true,
                             UsableAmount = 4
                         },

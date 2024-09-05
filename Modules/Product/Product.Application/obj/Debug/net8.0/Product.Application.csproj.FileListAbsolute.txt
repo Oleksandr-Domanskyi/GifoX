@@ -2,7 +2,15 @@ D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Applicatio
 D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Application.pdb
 D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Core.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Infrastructure.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Shared.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Core.pdb
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Infrastructure.pdb
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Shared.pdb
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Core.pdb
+D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.AssemblyInfoInputs.cache
@@ -14,9 +22,3 @@ D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Applicatio
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\refint\Product.Application.dll
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\Product.Application.pdb
 D:\GifoX\Modules\Product\Product.Application\obj\Debug\net8.0\ref\Product.Application.dll
-D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Infrastructure.dll
-D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Shared.dll
-D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Infrastructure.dll
-D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Infrastructure.pdb
-D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Product.Shared.pdb
-D:\GifoX\Modules\Product\Product.Application\bin\Debug\net8.0\Shared.Infrastructure.pdb

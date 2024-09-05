@@ -5,10 +5,12 @@ D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.API.pdb
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.Application.dll
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.Infrastructure.dll
+D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Shared.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.Application.pdb
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.Infrastructure.pdb
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Coupons.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Shared.Core.pdb
 D:\GifoX\Modules\Coupon\Coupon.API\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Modules\Coupon\Coupon.API\obj\Debug\net8.0\Coupons.API.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Coupon\Coupon.API\obj\Debug\net8.0\Coupons.API.GeneratedMSBuildEditorConfig.editorconfig

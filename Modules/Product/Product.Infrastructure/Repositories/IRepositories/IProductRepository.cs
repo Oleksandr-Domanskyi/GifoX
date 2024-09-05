@@ -1,5 +1,5 @@
 using System;
-using Product.Service.Core.Domain;
+using Product.Product.Core.Domain;
 using Shared.Infrastructure.RepositoriesManager;
 
 namespace Product.Infrastructure.Repositories.IRepositories;
@@ -11,5 +11,5 @@ public interface IProductRepository : IRepository
     ProductModel UpdateAsync(ProductModel productModel);
     Task<ProductModel> CreateAsync(ProductModel productModel);
     Task DeleteAsync(Guid Id);
-    
+
 }

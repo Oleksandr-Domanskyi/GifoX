@@ -33,8 +33,6 @@ public class ProductRepositoryServices : IProductRepositoryServices
         => await Result.Try(async Task<ProductDto> () => await GetByIdProductAsync(Id));
     public async Task<Result<ProductDto>> UpdateProduct(ProductRequest model, Guid ProductId, string UserId)
         => await Result.Try(async Task<ProductDto> () => await UpdateProductAsync(model, ProductId, UserId));
-    public async Task<Result<ProductDto>> ApplyCouponetoProduct(Guid ProductId, string CouponCode)
-        => await Result.Try(async Task<ProductDto> () => await ApplyCouponetoProductAsync(ProductId, CouponCode));
 
 
     private async Task<ProductDto> AddProductAsync(ProductRequest model)
@@ -74,15 +72,5 @@ public class ProductRepositoryServices : IProductRepositoryServices
         return ProductModelMapper.MapProductModelToProductDto(result);
 
     }
-    private async Task<ProductDto> ApplyCouponetoProductAsync(Guid ProductId, string CouponeCode)
-    {
-        var productDomain = await _unitOfWork.Repository.GetByIdAsync(ProductId);
-        var couponDto = await _couponHttpClient.ApplyCouponeAsync(CouponeCode);
-        if (couponDto == null && productDomain == null)
-        {
-            throw new Exception("Something wrong to apply coupone to Product");
-        }
-        return ProductModelMapper.MapProductModelToProductDto(productDomain);
-
-    }
+    
 }

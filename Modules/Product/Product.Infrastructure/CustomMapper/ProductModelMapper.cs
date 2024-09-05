@@ -1,5 +1,6 @@
 using System;
 using Product.Core.Dto;
+using Product.Product.Core.Domain;
 using Product.Service.Core.Domain;
 using Product.Service.Core.ProductDto.Request;
 using static Product.Service.Core.Domain.Enums.Category;
@@ -19,7 +20,7 @@ public class ProductModelMapper
             Category = request.Category,
             SubCategory = request.SubCategory,
             PrNetto = request.PrNetto,
-            PrBrutto = default,
+            PrBrutto = request.PrNetto * 1.2,
             IsActive = request.IsActive,
             CreatedDate = DateTime.UtcNow,
             EndDate = request.IsActive ? default : DateTime.UtcNow.Date,
@@ -37,7 +38,7 @@ public class ProductModelMapper
             Category = request.Category,
             SubCategory = request.SubCategory,
             PrNetto = request.PrNetto,
-            PrBrutto = default,
+            PrBrutto = request.PrNetto * 1.2,
             IsActive = request.IsActive,
             CreatedDate = DateTime.UtcNow,
             EndDate = request.IsActive ? default : DateTime.UtcNow.Date,
@@ -56,7 +57,7 @@ public class ProductModelMapper
             Category = model.Category,
             SubCategory = model.SubCategory,
             PrNetto = model.PrNetto,
-            PrBrutto = default,
+            PrBrutto = model.PrBrutto,
             ClientFeedbacks = model.ClientFeedbacks,
             IsActive = model.IsActive,
             CreatedDate = DateTime.UtcNow,
@@ -75,7 +76,7 @@ public class ProductModelMapper
             Category = model.Category,
             SubCategory = model.SubCategory,
             PrNetto = model.PrNetto,
-            PrBrutto = default,
+            PrBrutto = model.PrBrutto,
             ClientFeedbacks = model.ClientFeedbacks,
             IsActive = model.IsActive,
             CreatedDate = DateTime.UtcNow,

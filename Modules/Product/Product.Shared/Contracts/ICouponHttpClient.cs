@@ -1,10 +1,8 @@
-using System;
-using Product.Shared.Dtos;
-using Product.Shared.Responses;
+using Coupons.Service.Core.Dto;
 
 namespace Product.Shared.Contracts;
 
 public interface ICouponHttpClient
 {
-    Task<CouponeResponse<CouponeDtoResponse>> ApplyCouponeAsync(string CouponeCode);
+    Task<CouponDto> GetSharedCouponeByCode(string CouponeCode);
 }

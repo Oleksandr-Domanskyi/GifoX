@@ -1,17 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {}
+    "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {}
   },
   "projects": {
-    "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
+    "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+        "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
         "projectName": "Product.Shared",
-        "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+        "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\obj\\",
+        "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+                "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
+        "projectName": "Shared.Core",
+        "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
+        "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
+        "outputPath": "d:\\GifoX\\Shared\\Shared.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,16 +120,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

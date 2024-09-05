@@ -3,9 +3,11 @@ D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Coupons.Application.
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Coupons.Application.pdb
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Coupons.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Coupons.Infrastructure.dll
+D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Shared.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Shared.Infrastructure.dll
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Coupons.Core.pdb
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Coupons.Infrastructure.pdb
+D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Shared.Core.pdb
 D:\GifoX\Modules\Coupon\Coupon.Application\bin\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Modules\Coupon\Coupon.Application\obj\Debug\net8.0\Coupons.Application.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Coupon\Coupon.Application\obj\Debug\net8.0\Coupons.Application.GeneratedMSBuildEditorConfig.editorconfig

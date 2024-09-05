@@ -1,11 +1,15 @@
 D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Coupons.Core.deps.json
 D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Coupons.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Coupons.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Shared.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.AssemblyInfoInputs.cache
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.AssemblyInfo.cs
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.csproj.CoreCompileInputs.cache
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.sourcelink.json
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons..1E9CDB38.Up2Date
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\refint\Coupons.Core.dll
 D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupons.Core.pdb

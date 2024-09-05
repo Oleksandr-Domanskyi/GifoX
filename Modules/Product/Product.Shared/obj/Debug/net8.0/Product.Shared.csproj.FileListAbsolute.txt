@@ -1,12 +1,15 @@
 D:\GifoX\Modules\Product\Product.Shared\bin\Debug\net8.0\Product.Shared.deps.json
 D:\GifoX\Modules\Product\Product.Shared\bin\Debug\net8.0\Product.Shared.dll
 D:\GifoX\Modules\Product\Product.Shared\bin\Debug\net8.0\Product.Shared.pdb
+D:\GifoX\Modules\Product\Product.Shared\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Modules\Product\Product.Shared\bin\Debug\net8.0\Shared.Core.pdb
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.csproj.AssemblyReference.cache
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.AssemblyInfoInputs.cache
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.AssemblyInfo.cs
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.csproj.CoreCompileInputs.cache
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.sourcelink.json
+D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product..5265F263.Up2Date
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.dll
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\refint\Product.Shared.dll
 D:\GifoX\Modules\Product\Product.Shared\obj\Debug\net8.0\Product.Shared.pdb
