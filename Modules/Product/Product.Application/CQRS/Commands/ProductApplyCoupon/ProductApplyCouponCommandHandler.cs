@@ -3,6 +3,7 @@ using MediatR;
 using Product.Core.Dto;
 using Product.Infrastructure.Services.IServices;
 using Product.Infrastructure.Services.IServices.IProductSharedServices;
+using Shared.Core.ProductShared.Dto;
 
 namespace Product.Application.CQRS.Commands.ProductApplyCoupon;
 

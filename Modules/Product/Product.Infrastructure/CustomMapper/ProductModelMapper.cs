@@ -1,9 +1,11 @@
 using System;
+using Product.Core.Domain;
 using Product.Core.Dto;
+using Product.Infrastructure.CustomMapper;
 using Product.Product.Core.Domain;
 using Product.Service.Core.Domain;
 using Product.Service.Core.ProductDto.Request;
-using static Product.Service.Core.Domain.Enums.Category;
+using Shared.Core.ProductShared.Dto;
 
 namespace Product.Product.Infrastructure.CustomMapper;
 
@@ -53,12 +55,12 @@ public class ProductModelMapper
             Name = model.Name,
             Description = model.Description,
             Characteristics = model.Characteristics,
-            Images = model.Images,
+            Images = ImageMapper.ImageToImageDto(model.Images).ToList(),
             Category = model.Category,
             SubCategory = model.SubCategory,
             PrNetto = model.PrNetto,
             PrBrutto = model.PrBrutto,
-            ClientFeedbacks = model.ClientFeedbacks,
+            ClientFeedbacks = ClientsFeedbackMapper.ClientFeedbackToClientFeedbackDto(model.ClientFeedbacks ?? new List<ClientFeedback>()).ToList(),
             IsActive = model.IsActive,
             CreatedDate = DateTime.UtcNow,
             EndDate = model.IsActive ? default : DateTime.UtcNow.Date,
@@ -72,12 +74,12 @@ public class ProductModelMapper
             Name = model.Name,
             Description = model.Description,
             Characteristics = model.Characteristics,
-            Images = model.Images,
+            Images = ImageMapper.ImageToImageDto(model.Images).ToList(),
             Category = model.Category,
             SubCategory = model.SubCategory,
             PrNetto = model.PrNetto,
             PrBrutto = model.PrBrutto,
-            ClientFeedbacks = model.ClientFeedbacks,
+            ClientFeedbacks = ClientsFeedbackMapper.ClientFeedbackToClientFeedbackDto(model.ClientFeedbacks ?? new List<ClientFeedback>()).ToList(),
             IsActive = model.IsActive,
             CreatedDate = DateTime.UtcNow,
             EndDate = model.IsActive ? default : DateTime.UtcNow.Date,

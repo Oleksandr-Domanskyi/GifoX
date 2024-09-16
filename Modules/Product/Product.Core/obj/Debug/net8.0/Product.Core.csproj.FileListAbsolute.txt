@@ -11,3 +11,6 @@ D:\GifoX\Modules\Product\Product.Core\obj\Debug\net8.0\Product.Core.dll
 D:\GifoX\Modules\Product\Product.Core\obj\Debug\net8.0\refint\Product.Core.dll
 D:\GifoX\Modules\Product\Product.Core\obj\Debug\net8.0\Product.Core.pdb
 D:\GifoX\Modules\Product\Product.Core\obj\Debug\net8.0\ref\Product.Core.dll
+D:\GifoX\Modules\Product\Product.Core\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Modules\Product\Product.Core\bin\Debug\net8.0\Shared.Core.pdb
+D:\GifoX\Modules\Product\Product.Core\obj\Debug\net8.0\Product..7B1A8CED.Up2Date

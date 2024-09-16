@@ -15,10 +15,6 @@ D:\GifoX\API\API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.API.dll
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Application.dll
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Core.dll
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Infrastructure.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Product.API.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Product.Core.dll
 D:\GifoX\API\API\bin\Debug\net8.0\Product.Infrastructure.dll
@@ -93,11 +89,7 @@ D:\GifoX\API\API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources
 D:\GifoX\API\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\GifoX\API\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\GifoX\API\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.API.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Product.API.pdb
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Application.pdb
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Core.pdb
-D:\GifoX\API\API\bin\Debug\net8.0\Coupons.Infrastructure.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Product.Application.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Product.Core.pdb
 D:\GifoX\API\API\bin\Debug\net8.0\Product.Infrastructure.pdb
@@ -131,3 +123,11 @@ d:\GifoX\API\API\bin\Debug\net8.0\API.pdb
 d:\GifoX\API\API\obj\Debug\net8.0\API.csproj.Up2Date
 d:\GifoX\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 d:\GifoX\API\API\obj\Debug\net8.0\ref\API.dll
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.API.dll
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.Application.dll
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.Core.dll
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.Infrastructure.dll
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.API.pdb
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.Application.pdb
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.Core.pdb
+d:\GifoX\API\API\bin\Debug\net8.0\Coupon.Infrastructure.pdb

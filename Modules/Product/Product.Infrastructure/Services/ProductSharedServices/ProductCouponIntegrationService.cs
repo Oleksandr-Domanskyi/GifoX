@@ -9,6 +9,7 @@ using Product.Infrastructure.Services.IServices.IProductSharedServices.IHandler;
 using Product.Product.Core.Domain;
 using Product.Product.Infrastructure.CustomMapper;
 using Product.Shared.Contracts;
+using Shared.Core.ProductShared.Dto;
 using Shared.Shared.Core.Enum.CouponEnum;
 using Shared.Shared.Infrastructure.UnitOfWork;
 

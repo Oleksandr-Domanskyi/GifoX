@@ -2,7 +2,7 @@ using System;
 using Microsoft.AspNetCore.Http;
 using Product.Core.Domain;
 using Product.Core.Dto.Request;
-using static Product.Service.Core.Domain.Enums.Category;
+using static Shared.Shared.Core.ProductShared.Enums.Category;
 
 namespace Product.Service.Core.ProductDto.Request;
 

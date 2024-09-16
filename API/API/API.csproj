@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Modules\Coupon\Coupon.API\Coupons.API.csproj" />
+    <ProjectReference Include="..\..\Modules\Coupon\Coupon.API\Coupon.API.csproj" />
     <ProjectReference Include="..\..\Modules\Product\Product.API\Product.API.csproj" />
   </ItemGroup>
 

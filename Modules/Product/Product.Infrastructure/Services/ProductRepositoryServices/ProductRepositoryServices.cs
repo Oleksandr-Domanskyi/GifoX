@@ -8,18 +8,16 @@ using Product.Service.Core.ProductDto.Request;
 using Shared.Shared.Infrastructure.UnitOfWork;
 using Product.Product.Infrastructure.CustomMapper;
 using Product.Shared.Contracts;
+using Shared.Core.ProductShared.Dto;
 
 namespace Product.Infrastructure.Services.ProductRepositoryServices;
 
 public class ProductRepositoryServices : IProductRepositoryServices
 {
     private readonly IUnitOfWork<ProductDbContext, IProductRepository> _unitOfWork;
-    private readonly ICouponHttpClient _couponHttpClient;
 
-    public ProductRepositoryServices(IUnitOfWork<ProductDbContext, IProductRepository> unitOfWork,
-                                     ICouponHttpClient couponHttpClient)
+    public ProductRepositoryServices(IUnitOfWork<ProductDbContext, IProductRepository> unitOfWork)
     {
-        _couponHttpClient = couponHttpClient;
         _unitOfWork = unitOfWork;
     }
 
@@ -72,5 +70,5 @@ public class ProductRepositoryServices : IProductRepositoryServices
         return ProductModelMapper.MapProductModelToProductDto(result);
 
     }
-    
+
 }

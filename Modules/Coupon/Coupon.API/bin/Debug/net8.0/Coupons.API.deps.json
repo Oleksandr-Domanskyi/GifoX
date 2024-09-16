@@ -825,7 +825,8 @@
       "Shared.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "Shared.Core": "1.0.0"
         },
         "runtime": {
           "Shared.Infrastructure.dll": {

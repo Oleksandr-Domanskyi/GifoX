@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {}
+    "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {}
   },
   "projects": {
-    "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
+    "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
         "projectName": "Coupons.API",
-        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
+        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupons.API.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\obj\\",
+        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj": {
-                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj"
+              "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj": {
+                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj"
               },
               "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
                 "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
@@ -99,14 +99,14 @@
         }
       }
     },
-    "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj": {
+    "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj",
+        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj",
         "projectName": "Coupons.Application",
-        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj",
+        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupons.Application.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\obj\\",
+        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,8 +124,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
-                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
+              "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
+                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
               },
               "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj": {
                 "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj"
@@ -181,14 +181,14 @@
         }
       }
     },
-    "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
+    "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
+        "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
         "projectName": "Coupons.Core",
-        "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
+        "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\obj\\",
+        "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -206,8 +206,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
-                "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+              "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+                "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
               }
             }
           }
@@ -271,8 +271,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
-                "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
+              "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj": {
+                "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupons.Core.csproj"
               },
               "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
                 "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"
@@ -340,14 +340,14 @@
         }
       }
     },
-    "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+    "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
+        "projectUniqueName": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
         "projectName": "Shared.Core",
-        "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
+        "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Shared\\Shared.Core\\obj\\",
+        "outputPath": "D:\\GifoX\\Shared\\Shared.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -425,7 +425,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+                "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

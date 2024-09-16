@@ -9,15 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifoX.web", "FrontEnd\GifoX
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2B34F5FD-626F-4A24-9D9B-135F2B86B0E9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coupons", "CouponsOpenAPI", "{E5F8C96A-20A8-46F2-B110-27F5553625E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Coupon", "Coupon", "{E5F8C96A-20A8-46F2-B110-27F5553625E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupons.API", "Modules\Coupon\Coupon.API\Coupons.API.csproj", "{3E4CB174-6E32-4CBB-94B5-88CB77E0F6C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupon.API", "Modules\Coupon\Coupon.API\Coupon.API.csproj", "{3E4CB174-6E32-4CBB-94B5-88CB77E0F6C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupons.Core", "Modules\Coupon\Coupon.Core\Coupons.Core.csproj", "{0CA60718-93F9-401B-BACE-09BDBFFE88AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupon.Core", "Modules\Coupon\Coupon.Core\Coupon.Core.csproj", "{0CA60718-93F9-401B-BACE-09BDBFFE88AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupons.Application", "Modules\Coupon\Coupon.Application\Coupons.Application.csproj", "{2E760936-E475-4D8C-950A-547166480D01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupon.Application", "Modules\Coupon\Coupon.Application\Coupon.Application.csproj", "{2E760936-E475-4D8C-950A-547166480D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupons.Infrastructure", "Modules\Coupon\Coupon.Infrastructure\Coupons.Infrastructure.csproj", "{3CE12EED-865E-4E6B-AED7-9CC1D0EC1EA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupon.Infrastructure", "Modules\Coupon\Coupon.Infrastructure\Coupon.Infrastructure.csproj", "{3CE12EED-865E-4E6B-AED7-9CC1D0EC1EA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{D2DA8A81-2EF9-4882-80B5-67AD73EB71B3}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{0AFE4F42-2279-4E79-B903-78573FB9A38D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{60D29FED-E0DE-44AE-A31A-8A3FFBDCA351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupon.Shared", "Modules\Coupon\Coupon.Shared\Coupon.Shared.csproj", "{7ABE1DC8-F24B-43F9-83F8-30EF2942280E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,10 @@ Global
 		{DB78D32B-85BA-4A17-8CD4-7D8A42372FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB78D32B-85BA-4A17-8CD4-7D8A42372FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB78D32B-85BA-4A17-8CD4-7D8A42372FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABE1DC8-F24B-43F9-83F8-30EF2942280E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABE1DC8-F24B-43F9-83F8-30EF2942280E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABE1DC8-F24B-43F9-83F8-30EF2942280E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABE1DC8-F24B-43F9-83F8-30EF2942280E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,5 +131,6 @@ Global
 		{DB78D32B-85BA-4A17-8CD4-7D8A42372FAF} = {D2DA8A81-2EF9-4882-80B5-67AD73EB71B3}
 		{0AFE4F42-2279-4E79-B903-78573FB9A38D} = {2B34F5FD-626F-4A24-9D9B-135F2B86B0E9}
 		{60D29FED-E0DE-44AE-A31A-8A3FFBDCA351} = {2B34F5FD-626F-4A24-9D9B-135F2B86B0E9}
+		{7ABE1DC8-F24B-43F9-83F8-30EF2942280E} = {E5F8C96A-20A8-46F2-B110-27F5553625E0}
 	EndGlobalSection
 EndGlobal

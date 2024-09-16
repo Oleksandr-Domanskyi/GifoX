@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "owmGRegANQg=",
+  "dgSpecHash": "/ljPG9GO6nk=",
   "success": true,
-  "projectFilePath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupons.Infrastructure.csproj",
+  "projectFilePath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupon.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

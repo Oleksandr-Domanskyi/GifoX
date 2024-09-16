@@ -2,8 +2,7 @@ using System;
 using System.Collections.Generic;
 using Product.Core.Domain;
 using Product.Service.Core.Domain;
-using Product.Service.Core.Domain.Enums;
-using static Product.Service.Core.Domain.Enums.Category;
+using static Shared.Shared.Core.ProductShared.Enums.Category;
 
 namespace Product.Product.Core.Domain
 {
@@ -17,7 +16,7 @@ namespace Product.Product.Core.Domain
         private MainCategory _Category = MainCategory.Others;
         private SubMainCategory _SubCategory;
         private double _PrNetto = default!;
-        private double _PrBrutto = default!;
+        private double _PrBrutto =default!;
         private List<ClientFeedback>? _ClientFeedbacks;
         private bool _IsActive = true;
         private DateTime _CreatedDate;

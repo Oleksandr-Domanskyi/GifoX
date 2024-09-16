@@ -1,0 +1,16 @@
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Coupon.Core.deps.json
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Coupon.Core.dll
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Coupon.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Modules\Coupon\Coupon.Core\bin\Debug\net8.0\Shared.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.csproj.AssemblyReference.cache
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.AssemblyInfoInputs.cache
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.AssemblyInfo.cs
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.csproj.CoreCompileInputs.cache
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.sourcelink.json
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.C.D3D740F3.Up2Date
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.dll
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\refint\Coupon.Core.dll
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\Coupon.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.Core\obj\Debug\net8.0\ref\Coupon.Core.dll

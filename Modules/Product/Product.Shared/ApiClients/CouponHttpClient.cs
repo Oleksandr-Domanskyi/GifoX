@@ -17,7 +17,7 @@ namespace Product.Shared.ApiClients
 
         public async Task<CouponDto> GetSharedCouponeByCode(string couponCode)
         {
-            var request = new CouponeRequest
+            var request = new Request
             {
                 Url = $"Coupone/UseCupone/{couponCode}",
                 Data = new StringContent(string.Empty)
@@ -26,7 +26,7 @@ namespace Product.Shared.ApiClients
 
             if (response.IsSuccessStatusCode)
             {
-                var responseData = await response.Content.ReadFromJsonAsync<CouponeResponse<CouponDto>>();
+                var responseData = await response.Content.ReadFromJsonAsync<Response<CouponDto>>();
 
                 if (responseData!.IsSuccess || responseData.Content != null)
                 {

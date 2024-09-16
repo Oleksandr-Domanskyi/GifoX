@@ -4,7 +4,7 @@ using Product.Infrastructure.Database.DbContext;
 using Product.Product.Core.Domain;
 using Product.Service.Core.Domain;
 using Shared.Infrastructure.Database;
-using static Product.Service.Core.Domain.Enums.Category;
+using static Shared.Shared.Core.ProductShared.Enums.Category;
 
 namespace Product.Infrastructure.Database.Seed;
 

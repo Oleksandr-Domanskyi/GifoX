@@ -13,3 +13,6 @@ D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\refint\Shared.Infrastruct
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.pdb
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.Infrastructure.genruntimeconfig.cache
 D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\ref\Shared.Infrastructure.dll
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Shared\Shared.Infrastructure\bin\Debug\net8.0\Shared.Core.pdb
+D:\GifoX\Shared\Shared.Infrastructure\obj\Debug\net8.0\Shared.I.E63B7492.Up2Date

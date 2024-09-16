@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TiY4mfp2DN4=",
+  "dgSpecHash": "LkExpPwAxWo=",
   "success": true,
-  "projectFilePath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+  "projectFilePath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

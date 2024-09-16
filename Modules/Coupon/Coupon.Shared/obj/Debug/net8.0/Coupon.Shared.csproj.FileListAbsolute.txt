@@ -1,0 +1,6 @@
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.AssemblyInfoInputs.cache
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.AssemblyInfo.cs
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.csproj.CoreCompileInputs.cache
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.sourcelink.json
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.csproj.AssemblyReference.cache

@@ -1367,6 +1367,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
+        }
       }
     }
   },
@@ -3465,13 +3475,19 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../Shared.Core/Shared.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "Microsoft.Extensions.Hosting >= 8.0.0",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
+      "Shared.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3480,11 +3496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+      "projectUniqueName": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
       "projectName": "Shared.Infrastructure",
-      "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
+      "projectPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\obj\\",
+      "outputPath": "d:\\GifoX\\Shared\\Shared.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3501,7 +3517,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+              "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

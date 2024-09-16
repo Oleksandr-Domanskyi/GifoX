@@ -5,10 +5,14 @@ using Product.Product.Core.Domain;
 
 namespace Shared.Core.CouponShared.Handlers;
 
+
+// Неправильна обробка процентів та сталої ціни.
+// До направи
 public class DiscountTypeHandler : IDiscountTypeHandler
 {
     public ProductModel ApplyPercentageDiscount(ProductModel productDomain, CouponDto couponDto)
     {
+        
         if (couponDto.DiscountAmount < 0 || couponDto.DiscountAmount > 100)
         {
             throw new ArgumentException("Invalid discount percentage.");

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Product.Product.Core.Domain;
-using static Product.Service.Core.Domain.Enums.Category;
+using static Shared.Shared.Core.ProductShared.Enums.Category;
 
 namespace Product.Service.Core.Domain
 {

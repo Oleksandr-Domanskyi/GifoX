@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "nSLM0l2P9u+OQBpbKdKgj6q8ff+rwLJgfsIkSsulC50=",
-  "Source": "Coupons.API",
-  "BasePath": "_content/Coupons.API",
+  "Hash": "A/ChF2gyFWwAHDKxmy4emdTlMzAlzsFZn0mwayenVlM=",
+  "Source": "Coupon.API",
+  "BasePath": "_content/Coupon.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

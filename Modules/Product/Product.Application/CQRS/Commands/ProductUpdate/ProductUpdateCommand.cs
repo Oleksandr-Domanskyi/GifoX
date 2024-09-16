@@ -2,6 +2,7 @@ using System;
 using MediatR;
 using Product.Core.Dto;
 using Product.Service.Core.ProductDto.Request;
+using Shared.Core.ProductShared.Dto;
 
 namespace Product.Application.CQRS.Commands.ProductUpdate;
 

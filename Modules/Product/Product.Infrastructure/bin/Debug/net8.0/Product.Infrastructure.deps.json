@@ -11,6 +11,7 @@
           "FluentResults": "3.16.0",
           "Product.Core": "1.0.0",
           "Product.Shared": "1.0.0",
+          "Shared.Core": "1.0.0",
           "Shared.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -597,7 +598,8 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "Product.Core/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Http": "2.2.2"
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Shared.Core": "1.0.0"
         },
         "runtime": {
           "Product.Core.dll": {
@@ -630,7 +632,8 @@
       "Shared.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "Shared.Core": "1.0.0"
         },
         "runtime": {
           "Shared.Infrastructure.dll": {

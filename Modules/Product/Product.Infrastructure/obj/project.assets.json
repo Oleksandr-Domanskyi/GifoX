@@ -966,7 +966,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Http": "2.2.2"
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Shared.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Product.Core.dll": {}
@@ -1005,7 +1006,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "Shared.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Shared.Infrastructure.dll": {}
@@ -2459,6 +2461,7 @@
       "FluentResults >= 3.16.0",
       "Product.Core >= 1.0.0",
       "Product.Shared >= 1.0.0",
+      "Shared.Core >= 1.0.0",
       "Shared.Infrastructure >= 1.0.0"
     ]
   },
@@ -2468,11 +2471,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
       "projectName": "Product.Infrastructure",
-      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\obj\\",
+      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2493,8 +2496,11 @@
             "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj": {
               "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj"
             },
-            "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
-              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
+            "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
+              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
+            },
+            "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+              "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
             },
             "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
               "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"

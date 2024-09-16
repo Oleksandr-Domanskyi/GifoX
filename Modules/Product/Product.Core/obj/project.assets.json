@@ -202,6 +202,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Shared.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shared.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Core.dll": {}
+        }
       }
     }
   },
@@ -509,11 +519,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Shared.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Shared.Core/Shared.Core.csproj",
+      "msbuildProject": "../../../Shared/Shared.Core/Shared.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.AspNetCore.Http >= 2.2.2"
+      "Microsoft.AspNetCore.Http >= 2.2.2",
+      "Shared.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -522,11 +538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj",
+      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj",
       "projectName": "Product.Core",
-      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj",
+      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Core\\obj\\",
+      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -543,7 +559,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+              "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

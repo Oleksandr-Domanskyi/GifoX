@@ -802,11 +802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
       "projectName": "Product.Shared",
-      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
+      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\obj\\",
+      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
