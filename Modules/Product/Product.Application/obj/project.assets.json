@@ -2552,11 +2552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
+      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
       "projectName": "Product.Application",
-      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
+      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Application\\Product.Application.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Application\\obj\\",
+      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2577,8 +2577,8 @@
             "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj": {
               "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj"
             },
-            "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+            "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
             }
           }
         }

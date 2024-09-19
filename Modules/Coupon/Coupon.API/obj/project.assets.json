@@ -4231,11 +4231,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupon.Application.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupon.Application.csproj"
+            "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupon.Application.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Application\\Coupon.Application.csproj"
             },
-            "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupon.Infrastructure.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupon.Infrastructure.csproj"
+            "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupon.Infrastructure.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Infrastructure\\Coupon.Infrastructure.csproj"
             }
           }
         }

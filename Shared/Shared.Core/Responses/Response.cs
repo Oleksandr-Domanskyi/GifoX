@@ -1,6 +1,6 @@
 using System;
 
-namespace Product.Shared.Responses;
+namespace Shared.Shared.Core.Responses;
 
 public class Response<T>
 {

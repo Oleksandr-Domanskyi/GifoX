@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
-                "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+              "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+                "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+    "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
+        "projectUniqueName": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
         "projectName": "Shared.Core",
-        "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
+        "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj",
         "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-        "outputPath": "d:\\GifoX\\Shared\\Shared.Core\\obj\\",
+        "outputPath": "D:\\GifoX\\Shared\\Shared.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

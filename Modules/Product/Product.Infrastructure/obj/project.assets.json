@@ -2471,11 +2471,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+      "projectUniqueName": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
       "projectName": "Product.Infrastructure",
-      "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
+      "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\Product.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\GifoX\\Modules\\Product\\Product.Infrastructure\\obj\\",
+      "outputPath": "D:\\GifoX\\Modules\\Product\\Product.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2496,11 +2496,11 @@
             "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj": {
               "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Core\\Product.Core.csproj"
             },
-            "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
+            "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.Shared\\Product.Shared.csproj"
             },
-            "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
-              "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+            "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+              "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
             },
             "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj": {
               "projectPath": "D:\\GifoX\\Shared\\Shared.Infrastructure\\Shared.Infrastructure.csproj"

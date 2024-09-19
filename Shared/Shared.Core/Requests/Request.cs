@@ -1,6 +1,6 @@
 using System;
 
-namespace Product.Shared.Requests;
+namespace Shared.Shared.Core.Requests;
 
 public class Request
 {

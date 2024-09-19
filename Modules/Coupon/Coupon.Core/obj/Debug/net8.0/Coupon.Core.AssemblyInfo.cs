@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Coupon.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+353bfcf7ab1a030fd4519164962de83231a1b6d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88d451eeba5685b5b7cb72267cf5441378a87607")]
 [assembly: System.Reflection.AssemblyProductAttribute("Coupon.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Coupon.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

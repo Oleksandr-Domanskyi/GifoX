@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pcKHptMrN+g=",
+  "dgSpecHash": "RRplDDoM9PQ=",
   "success": true,
-  "projectFilePath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupon.API.csproj",
+  "projectFilePath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupon.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

@@ -4,3 +4,13 @@ D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.AssemblyInf
 D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.csproj.CoreCompileInputs.cache
 D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.sourcelink.json
 D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.csproj.AssemblyReference.cache
+D:\GifoX\Modules\Coupon\Coupon.Shared\bin\Debug\net8.0\Coupon.Shared.deps.json
+D:\GifoX\Modules\Coupon\Coupon.Shared\bin\Debug\net8.0\Coupon.Shared.dll
+D:\GifoX\Modules\Coupon\Coupon.Shared\bin\Debug\net8.0\Coupon.Shared.pdb
+D:\GifoX\Modules\Coupon\Coupon.Shared\bin\Debug\net8.0\Shared.Core.dll
+D:\GifoX\Modules\Coupon\Coupon.Shared\bin\Debug\net8.0\Shared.Core.pdb
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.S.A6B05A5E.Up2Date
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.dll
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\refint\Coupon.Shared.dll
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\Coupon.Shared.pdb
+D:\GifoX\Modules\Coupon\Coupon.Shared\obj\Debug\net8.0\ref\Coupon.Shared.dll

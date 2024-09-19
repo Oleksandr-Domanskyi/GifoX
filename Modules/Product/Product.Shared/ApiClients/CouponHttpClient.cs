@@ -1,8 +1,9 @@
 using System.Net.Http.Json;
 using Coupons.Service.Core.Dto;
 using Product.Shared.Contracts;
-using Product.Shared.Requests;
-using Product.Shared.Responses;
+using Shared.Shared.Core.Requests;
+using Shared.Shared.Core.Responses;
+
 
 namespace Product.Shared.ApiClients
 {

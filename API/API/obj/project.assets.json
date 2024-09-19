@@ -4608,11 +4608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\GifoX\\API\\API\\API.csproj",
+      "projectUniqueName": "D:\\GifoX\\API\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\GifoX\\API\\API\\API.csproj",
+      "projectPath": "D:\\GifoX\\API\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\GifoX\\API\\API\\obj\\",
+      "outputPath": "D:\\GifoX\\API\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4630,11 +4630,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupon.API.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupon.API.csproj"
+            "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupon.API.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.API\\Coupon.API.csproj"
             },
-            "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
-              "projectPath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj"
+            "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj": {
+              "projectPath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj"
             }
           }
         }

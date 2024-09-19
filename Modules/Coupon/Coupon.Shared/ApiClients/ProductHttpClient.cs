@@ -1,8 +1,8 @@
 using System;
 using System.Net.Http.Json;
 using Coupon.Shared.Contracts;
-using Product.Shared.Responses;
 using Shared.Core.ProductShared.Dto;
+using Shared.Shared.Core.Responses;
 
 namespace Coupon.Shared.ApiClients;
 

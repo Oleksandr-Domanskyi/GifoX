@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupon.Core.csproj",
+      "projectUniqueName": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupon.Core.csproj",
       "projectName": "Coupon.Core",
-      "projectPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupon.Core.csproj",
+      "projectPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\Coupon.Core.csproj",
       "packagesPath": "C:\\Users\\Sasha\\.nuget\\packages\\",
-      "outputPath": "d:\\GifoX\\Modules\\Coupon\\Coupon.Core\\obj\\",
+      "outputPath": "D:\\GifoX\\Modules\\Coupon\\Coupon.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
-              "projectPath": "d:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
+            "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj": {
+              "projectPath": "D:\\GifoX\\Shared\\Shared.Core\\Shared.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o0Mg+LKcuGA=",
+  "dgSpecHash": "g41Ee6922kM=",
   "success": true,
-  "projectFilePath": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+  "projectFilePath": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",

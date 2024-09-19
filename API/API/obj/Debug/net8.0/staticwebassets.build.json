@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2O/hparhRhp90JchDNwoqQEL9QmAD3HJqjocOd/1OJk=",
+  "Hash": "rlGjINGZWx7AILEFZDPRNTXZiM3Zyg2FC6JK95dcKvI=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -11,21 +11,21 @@
       "Version": 2,
       "Source": "Coupon.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "d:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
+      "Identity": "D:\\GifoX\\Modules\\Product\\Product.API\\Product.API.csproj",
       "Version": 2,
       "Source": "Product.API",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
